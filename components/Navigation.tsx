@@ -76,7 +76,7 @@ export default function Navigation() {
     <>
       <nav className="bg-background/95 supports-[backdrop-filter]:bg-background/60 border-b z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-20">
+          <div className="flex justify-between items-center h-24 py-3">
           {/* Logo à gauche */}
           <motion.div 
             className="flex-shrink-0"
@@ -85,21 +85,27 @@ export default function Navigation() {
             transition={{ duration: 0.7, delay: 0.2 }}
             whileHover={{ scale: 1.02 }}
           >
-            <Link href="/" className="flex items-center space-x-2">
+            <Link href="/" className="flex items-center space-x-3">
               <motion.div 
-                className="w-20 h-20 rounded-xl flex items-center justify-center  overflow-hidden"
+                className="w-12 h-12 bg-slate-700 rounded-lg flex items-center justify-center overflow-hidden"
                 whileHover={{ rotate: 5 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <Image 
                   src="/logo.png" 
                   alt="Logo" 
-                  width={80} 
-                  height={80} 
+                  width={32} 
+                  height={32} 
                   className="object-contain"
                 />
               </motion.div>
               <div className="flex flex-col">
+                <span className="text-2xl font-bold text-foreground">
+                  AYA PRO
+                </span>
+                <span className="text-sm text-gray-500 font-medium">
+                  rénovation intérieur | extérieur
+                </span>
               </div>
             </Link>
           </motion.div>
@@ -266,17 +272,17 @@ export default function Navigation() {
           <div className="flex flex-col h-full">
             {/* Header with close button */}
             <div className="flex justify-between items-center p-6 border-b">
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-3">
                 <motion.div 
-                  className="w-10 h-10 rounded-xl flex items-center justify-center shadow-lg overflow-hidden"
+                  className="w-12 h-12 bg-slate-700 rounded-lg flex items-center justify-center overflow-hidden"
                   whileHover={{ rotate: 5 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <Image 
                     src="/logo.png" 
                     alt="Logo" 
-                    width={40} 
-                    height={40} 
+                    width={32} 
+                    height={32} 
                     className="object-contain"
                   />
                 </motion.div>
@@ -285,7 +291,7 @@ export default function Navigation() {
                     AYA PRO
                   </span>
                   <span className="text-xs text-gray-400 font-medium">
-                    rénovation
+                    rénovation intérieur | extérieur
                   </span>
                 </div>
               </div>

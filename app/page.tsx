@@ -24,7 +24,7 @@ export default function Home() {
       title: "Rénovation Intérieure",
       subtitle: "Aménagement et rénovation",
       content: "Rénovation complète de vos espaces intérieurs. Intervention professionnelle pour transformer et moderniser votre habitat selon vos besoins.",
-      image: "/macon.png",
+      image: "/placo.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
       href: "/services/renovation-interieure"
@@ -51,7 +51,7 @@ export default function Home() {
       title: "Carrelage",
       subtitle: "Pose professionnelle",
       content: "Pose de carrelage sol et mural, faïence, mosaïque. Finitions parfaites avec étanchéité garantie pour tous vos projets.",
-      image: "/facade.png",
+      image: "/mur.png",
       gradientFrom: "#6f42c1",
       gradientTo: "#e83e8c",
       href: "/services/carrelage"

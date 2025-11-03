@@ -13,8 +13,8 @@
     "subtitle": "Entrepreneur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture, charpente et terrasse. Votre partenaire de confiance pour tous vos projets de rénovation en région PACA.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
-    "backgroundImage": "/bg.png",
-    "backgroundVideo": ""
+    "backgroundImage": "",
+    "backgroundVideo": "/video.mp4"
   },
   "about": {
     "sections": [
