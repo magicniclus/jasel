@@ -19,17 +19,17 @@ export default function Navigation() {
   const [showFloatingButton, setShowFloatingButton] = useState(false);
   const [showServicesDropdown, setShowServicesDropdown] = useState(false);
   const pathname = usePathname();
-  const phoneNumber = "07 83 49 01 36";
+  const phoneNumber = "06 68 92 45 79";
 
   // Détecter si on est sur la page d'accueil
   const isHomePage = pathname === '/';
 
   // Liste des services pour le dropdown
   const servicesLinks = [
-    { name: 'Débouchage Gaines Télécoms', href: '/services/debouchage-gaines' },
-    { name: 'Maintenance Télécoms', href: '/services/maintenance-telecoms' },
-    { name: 'Installation Réseau', href: '/services/installation-reseau' },
-    { name: 'Interventions Techniques', href: '/services/interventions-techniques' },
+    { name: 'Rénovation Intérieure', href: '/services/renovation-interieure' },
+    { name: 'Peinture', href: '/services/peinture' },
+    { name: 'Plomberie', href: '/services/plomberie' },
+    { name: 'Toiture & Charpente', href: '/services/toiture-charpente' },
   ];
 
   // Navigation adaptative selon la page
@@ -282,10 +282,10 @@ export default function Navigation() {
                 </motion.div>
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-foreground">
-                    RAFCOM
+                    AYA PRO
                   </span>
                   <span className="text-xs text-gray-400 font-medium">
-                    télécommunications
+                    rénovation
                   </span>
                 </div>
               </div>

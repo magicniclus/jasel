@@ -46,11 +46,11 @@ export default function ContactPage() {
   };
 
   const contactInfo = {
-    address: "Zone d'intervention :\nParis (75015)\nÎle-de-France\nParis et banlieue",
-    phone: "07 83 49 01 36",
-    email: "contact@rafcom.net",
+    address: "Zone d'intervention :\nAix-en-Provence\nRégion PACA\n50 km autour d'Aix",
+    phone: "06 68 92 45 79",
+    email: "mraihi_7777@yahoo.com",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Paris+75015,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=Aix-en-Provence,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -71,7 +71,7 @@ export default function ContactPage() {
               Contactez-nous
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              Un projet de débouchage de gaines télécommunications ou d'interventions techniques ? Notre équipe RAFCOM est là pour vous accompagner en Île-de-France.
+              Un projet de rénovation intérieure, peinture, plomberie ou toiture ? Notre équipe AYA PRO est là pour vous accompagner en région PACA.
             </p>
           </motion.div>
         </div>

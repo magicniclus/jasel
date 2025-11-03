@@ -15,10 +15,10 @@ export default function Footer() {
   ];
 
   const servicesLinks = [
-    { name: 'Débouchage Gaines Télécoms', href: '/services/debouchage-gaines' },
-    { name: 'Maintenance Télécoms', href: '/services/maintenance-telecoms' },
-    { name: 'Installation Réseau', href: '/services/installation-reseau' },
-    { name: 'Interventions Techniques', href: '/services/interventions-techniques' },
+    { name: 'Rénovation Intérieure', href: '/services/renovation-interieure' },
+    { name: 'Peinture', href: '/services/peinture' },
+    { name: 'Plomberie', href: '/services/plomberie' },
+    { name: 'Toiture & Charpente', href: '/services/toiture-charpente' },
   ];
 
   return (
@@ -50,17 +50,17 @@ export default function Footer() {
                   />
                 </motion.div>
                 <span className="text-xl font-bold">
-                  RAFCOM
+                  AYA PRO
                 </span>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Spécialiste en débouchage de gaines télécommunications et interventions techniques en Île-de-France.
+                Entrepreneur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture et charpente en région PACA.
               </p>
               <a 
-                href="tel:0783490136" 
+                href="tel:0668924579" 
                 className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
               >
-                07 83 49 01 36
+                06 68 92 45 79
               </a>
             </motion.div>
 
@@ -122,11 +122,11 @@ export default function Footer() {
               <h3 className="text-lg font-semibold">Contact</h3>
               <div className="space-y-2">
                 <a 
-                  href="tel:0783490136"
+                  href="tel:0668924579"
                   className="text-slate-300 hover:text-white text-sm transition-colors duration-200 block flex items-center space-x-2"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>07 83 49 01 36</span>
+                  <span>06 68 92 45 79</span>
                 </a>
                 <p className="text-slate-400 text-xs">
                   Service gratuit 7j/7 de 9h à 19h
@@ -147,7 +147,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              © {currentYear} RAFCOM. Tous droits réservés.
+              © {currentYear} AYA PRO. Tous droits réservés.
             </motion.p>
 
             {/* Powered by */}

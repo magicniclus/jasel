@@ -25,12 +25,12 @@ export default function Hero({
   config,
   backgroundImage,
   backgroundVideo,
-  title = "RAFCOM - Spécialiste débouchage gaines télécommunications en Île-de-France",
-  description = "Expert en débouchage de gaines télécommunications et interventions techniques spécialisées dans le secteur des télécommunications. Votre partenaire de confiance pour tous vos projets télécoms en Île-de-France.",
+  title = "AYA PRO - Spécialiste rénovation intérieure et extérieure en PACA",
+  description = "Entrepreneur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture, charpente et terrasse. Votre partenaire de confiance pour tous vos projets de rénovation en région PACA.",
   bulletPoints = [
-    "Spécialiste télécommunications",
-    "Expert en débouchage de gaines",
-    "Intervention en Île-de-France (Paris 75015)"
+    "Spécialiste rénovation intérieure",
+    "Expert peinture, plomberie, toiture",
+    "Intervention en région PACA (Aix-en-Provence)"
   ],
   googleReviewsWidget
 }: HeroProps) {

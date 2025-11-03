@@ -14,28 +14,28 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "RAFCOM - Débouchage Gaines Télécommunications en Île-de-France",
-  description: "RAFCOM, expert en débouchage de gaines télécommunications et interventions techniques spécialisées. Devis gratuit en Île-de-France, Paris.",
+  title: "AYA PRO - Rénovation Intérieure et Extérieure en PACA",
+  description: "AYA PRO, entrepreneur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture et charpente. Devis gratuit en région PACA, Aix-en-Provence.",
   keywords: [
-    "débouchage gaines télécommunications Île-de-France",
-    "maintenance télécoms Paris",
-    "installation réseau 75015",
-    "interventions techniques télécoms",
-    "expert télécommunications Paris",
-    "débouchage gaines Paris",
-    "maintenance réseau télécom",
-    "installation télécommunications",
-    "services télécoms",
-    "réparation réseau",
+    "rénovation intérieure PACA",
+    "peinture Aix-en-Provence",
+    "plomberie région PACA",
+    "toiture charpente Aix",
+    "entrepreneur bâtiment PACA",
+    "rénovation maison Aix-en-Provence",
+    "travaux peinture intérieure",
+    "aménagement intérieur",
+    "rénovation complète",
+    "travaux toiture",
     "devis gratuit",
-    "RAFCOM",
-    "Rafik Hamel",
-    "télécommunications Île-de-France",
-    "auto-entrepreneur télécoms"
+    "AYA PRO",
+    "Mossaddak Mraihi",
+    "rénovation PACA",
+    "entrepreneur bâtiment"
   ],
-  author: "Rafik Hamel",
-  siteUrl: "https://rafcom.net",
-  siteName: "RAFCOM - Télécommunications",
+  author: "Mossaddak Mraihi",
+  siteUrl: "https://ayapro.fr",
+  siteName: "AYA PRO - Rénovation",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
@@ -116,50 +116,50 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "RAFCOM",
-  "legalName": "RAFCOM - Spécialiste télécommunications",
+  "name": "AYA PRO",
+  "legalName": "Aya pro - Entreprise de rénovation",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "Rafik Hamel"
+    "name": "Mossaddak Mraihi"
   },
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Paris",
-    "postalCode": "75015",
-    "addressRegion": "Île-de-France",
+    "addressLocality": "Aix-en-Provence",
+    "postalCode": "13100",
+    "addressRegion": "PACA",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+33783490136",
+    "telephone": "+33668924579",
     "contactType": "customer service",
-    "email": "contact@rafcom.net",
+    "email": "mraihi_7777@yahoo.com",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
-      "name": "Île-de-France"
+      "name": "PACA"
     },
     {
       "@type": "AdministrativeArea", 
-      "name": "Paris"
+      "name": "Bouches-du-Rhône"
     },
     {
       "@type": "City",
-      "name": "Paris 15ème"
+      "name": "Aix-en-Provence"
     }
   ],
   "serviceType": [
-    "Débouchage gaines télécommunications",
-    "Maintenance télécoms", 
-    "Installation réseau",
-    "Interventions techniques",
-    "Services télécommunications"
+    "Rénovation intérieure",
+    "Peinture", 
+    "Plomberie",
+    "Toiture et charpente",
+    "Travaux de rénovation"
   ],
   "priceRange": "€€",
   "openingHours": "Mo-Fr 08:00-18:00",
@@ -172,29 +172,37 @@ export const organizationSchema = {
 export const servicesSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Telecommunications Services",
+  "serviceType": "Construction Services",
   "provider": {
     "@id": `${seoConfig.siteUrl}#organization`
   },
   "areaServed": organizationSchema.areaServed,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services télécommunications",
+    "name": "Services de rénovation",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Débouchage gaines télécommunications",
-          "description": "Débouchage professionnel de gaines télécommunications, intervention rapide et efficace"
+          "name": "Rénovation intérieure",
+          "description": "Rénovation complète de vos espaces intérieurs, aménagement et modernisation"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Maintenance et installation télécoms",
-          "description": "Maintenance préventive, installation réseau, interventions techniques spécialisées"
+          "name": "Peinture et plomberie",
+          "description": "Travaux de peinture intérieure et extérieure, services de plomberie complets"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Toiture et charpente",
+          "description": "Travaux de toiture, réfection et entretien de charpente"
         }
       }
     ]

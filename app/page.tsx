@@ -21,50 +21,50 @@ export default function Home() {
   });
   const servicesData = [
     {
-      title: "Débouchage Gaines Télécoms",
-      subtitle: "Intervention technique spécialisée",
-      content: "Débouchage professionnel de gaines télécommunications. Intervention rapide et efficace pour rétablir la circulation dans vos réseaux télécoms.",
+      title: "Rénovation Intérieure",
+      subtitle: "Aménagement et rénovation",
+      content: "Rénovation complète de vos espaces intérieurs. Intervention professionnelle pour transformer et moderniser votre habitat selon vos besoins.",
       image: "/placo.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
-      href: "/services/debouchage-gaines"
+      href: "/services/renovation-interieure"
     },
     {
-      title: "Maintenance Télécoms",
-      subtitle: "Entretien et réparation",
-      content: "Maintenance préventive et curative de vos installations télécommunications. Intervention technique pour assurer la continuité de vos services.",
+      title: "Peinture",
+      subtitle: "Travaux de peinture",
+      content: "Travaux de peinture intérieure et extérieure. Application professionnelle pour donner une nouvelle vie à vos murs et façades.",
       image: "/plomberie.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2",
-      href: "/services/maintenance-telecoms"
+      href: "/services/peinture"
     },
     {
-      title: "Installation Réseau",
-      subtitle: "Déploiement technique",
-      content: "Installation et déploiement de réseaux télécommunications. Solutions techniques adaptées à vos besoins de connectivité.",
+      title: "Plomberie",
+      subtitle: "Installation et réparation",
+      content: "Services de plomberie complets : installation, réparation et maintenance. Solutions adaptées pour tous vos besoins en plomberie.",
       image: "/maison-work.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
-      href: "/services/installation-reseau"
+      href: "/services/plomberie"
     },
     {
-      title: "Interventions Techniques",
-      subtitle: "Expertise spécialisée",
-      content: "Interventions techniques spécialisées dans le domaine des télécommunications. Service professionnel et réactif pour tous vos besoins techniques.",
+      title: "Toiture & Charpente",
+      subtitle: "Couverture et structure",
+      content: "Travaux de toiture et charpente. Expertise professionnelle pour la réfection, réparation et entretien de votre couverture.",
       image: "/mur.png",
       gradientFrom: "#fd7e14",
       gradientTo: "#ffc107",
-      href: "/services/interventions-techniques"
+      href: "/services/toiture-charpente"
     }
   ];
 
 
 
   const contactInfo = {
-    address: "Paris (75015)\nÎle-de-France\nRayon d'intervention : Paris et banlieue",
-    phone: "07 83 49 01 36",
-    email: "contact@rafcom.net",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Paris+75015,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    address: "Aix-en-Provence\nRégion PACA\nRayon d'intervention : 50 km autour d'Aix",
+    phone: "06 68 92 45 79",
+    email: "mraihi_7777@yahoo.com",
+    mapEmbedUrl: "https://maps.google.com/maps?q=Aix-en-Provence,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -115,7 +115,7 @@ export default function Home() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de votre projet de débouchage de gaines télécommunications ou d'interventions techniques en Île-de-France"
+        subtitle="Parlons de votre projet de rénovation intérieure, peinture, plomberie ou toiture en région PACA"
         contactInfo={contactInfo} 
       />
 
