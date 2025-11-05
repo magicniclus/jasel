@@ -1,0 +1,41 @@
+{
+  "id": "28xF5vF7iafW2jCz1Uyf",
+  "informationsPersonnelles": {
+    "nom": "Reinard",
+    "prenom": "",
+    "email": "diamantalive.fr@live.fr",
+    "telephone": "0645610178",
+    "etape": "R2",
+    "date": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1762256243,
+      "nanoseconds": 260000000
+    },
+    "rgpd": true,
+    "commentaire": "Faire logo + Site + projection"
+  },
+  "informationsEntreprise": {
+    "nomEntreprise": "Newman ",
+    "entreprise": "Newman ",
+    "metier": "Entrepreneur de bâtiment, ravalement, couverture, nettoyage de chantier (toiture pignon facade)",
+    "secteurActivite": "Bretagne caimpert",
+    "raisonSociale": "Auto-entrepreneur",
+    "anneeCreation": "2020",
+    "nombreCollaborateurs": "1",
+    "prestation": "Entrepreneur de bâtiment",
+    "rayonIntervention": "29000",
+    "certifications": "",
+    "garanties": "Décennale",
+    "partenaires": ""
+  },
+  "siteWebEtCommunication": {
+    "siteWebExistant": false,
+    "siteWebURL": "",
+    "logo": true,
+    "sitePret": false
+  },
+  "metadonnees": {
+    "dateExport": "2025-11-05T16:58:00.814Z",
+    "exportePar": "Admin Trouver Mon Chantier"
+  }
+}

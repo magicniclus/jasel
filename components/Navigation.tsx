@@ -19,17 +19,17 @@ export default function Navigation() {
   const [showFloatingButton, setShowFloatingButton] = useState(false);
   const [showServicesDropdown, setShowServicesDropdown] = useState(false);
   const pathname = usePathname();
-  const phoneNumber = "06 75 87 47 82";
+  const phoneNumber = "06 45 61 01 78";
 
   // Détecter si on est sur la page d'accueil
   const isHomePage = pathname === '/';
 
   // Liste des services pour le dropdown
   const servicesLinks = [
-    { name: 'Charpente', href: '/services/charpente' },
+    { name: 'Ravalement', href: '/services/ravalement' },
     { name: 'Couverture', href: '/services/couverture' },
-    { name: 'Zinguerie', href: '/services/zinguerie' },
-    { name: 'Plaquisterie', href: '/services/plaquisterie' },
+    { name: 'Nettoyage de chantier', href: '/services/nettoyage-chantier' },
+    { name: 'Toiture', href: '/services/toiture' },
   ];
 
   // Navigation adaptative selon la page
@@ -101,10 +101,10 @@ export default function Navigation() {
               </motion.div>
               <div className="flex flex-col">
                 <span className="text-2xl font-bold text-foreground">
-                  LCCM
+                  NEWMAN
                 </span>
                 <span className="text-sm text-gray-500 font-medium">
-                  charpente | couverture | zinguerie
+                  ravalement | couverture | nettoyage
                 </span>
               </div>
             </Link>
@@ -288,10 +288,10 @@ export default function Navigation() {
                 </motion.div>
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-foreground">
-                    LCCM
+                    NEWMAN
                   </span>
                   <span className="text-xs text-gray-400 font-medium">
-                    charpente | couverture | zinguerie
+                    ravalement | couverture | nettoyage
                   </span>
                 </div>
               </div>

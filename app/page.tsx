@@ -21,50 +21,50 @@ export default function Home() {
   });
   const servicesData = [
     {
-      title: "Charpente Traditionnelle",
-      subtitle: "Charpente sur mesure",
-      content: "Conception et réalisation de charpentes traditionnelles en bois. Expertise artisanale pour structures durables et esthétiques.",
-      image: "/placo.png",
+      title: "Ravalement",
+      subtitle: "Ravalement de façades",
+      content: "Ravalement de façades, pignons et murs extérieurs. Expertise en rénovation et embellissement de vos façades en Bretagne.",
+      image: "/maison.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
-      href: "/services/charpente"
+      href: "/services/ravalement"
     },
     {
       title: "Couverture",
       subtitle: "Toiture et étanchéité",
-      content: "Pose et rénovation de couvertures : tuiles, ardoises, zinc. Solutions complètes pour l'étanchéité et l'isolation de votre toiture.",
+      content: "Pose et rénovation de couvertures : tuiles, ardoises. Solutions complètes pour l'étanchéité et la protection de votre toiture.",
       image: "/plomberie.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2",
       href: "/services/couverture"
     },
     {
-      title: "Zinguerie",
-      subtitle: "Évacuation des eaux",
-      content: "Installation et réparation de systèmes de zinguerie : gouttières, chéneaux, descentes. Expertise en évacuation des eaux pluviales.",
-      image: "/plomberie.png",
+      title: "Nettoyage de couverture et façade",
+      subtitle: "Nettoyage professionnel",
+      content: "Nettoyage de toiture, pignon et façade. Service professionnel pour l'entretien et la propreté de vos bâtiments.",
+      image: "/peinture.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
-      href: "/services/zinguerie"
+      href: "/services/nettoyage-chantier"
     },
     {
-      title: "Plaquisterie",
-      subtitle: "Cloisons et doublages",
-      content: "Pose de cloisons, doublages et faux plafonds. Aménagement intérieur avec finitions soignées pour tous vos espaces.",
-      image: "/mur.png",
+      title: "Toiture",
+      subtitle: "Travaux de toiture",
+      content: "Travaux de toiture complète : réparation, entretien et rénovation. Expertise en toiture pour tous types de bâtiments.",
+      image: "/about-1.png",
       gradientFrom: "#6f42c1",
       gradientTo: "#e83e8c",
-      href: "/services/plaquisterie"
+      href: "/services/toiture"
     }
   ];
 
 
 
   const contactInfo = {
-    address: "Île de France et Sarthe\nIntervention dans toute la région\nHors Paris intramuros",
-    phone: "06 75 87 47 82",
-    email: "lccmsarthe@gmail.com",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Sarthe,France&t=&z=10&ie=UTF8&iwloc=&output=embed"
+    address: "Bretagne (29000)\nIntervention dans toute la région\nCaimpert et alentours",
+    phone: "06 45 61 01 78",
+    email: "diamantalive.fr@live.fr",
+    mapEmbedUrl: "https://maps.google.com/maps?q=Bretagne,France&t=&z=10&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -115,7 +115,7 @@ export default function Home() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de votre projet de charpente, couverture, zinguerie ou plaquisterie en Île de France et Sarthe"
+        subtitle="Parlons de votre projet de ravalement, couverture ou nettoyage de chantier en Bretagne"
         contactInfo={contactInfo} 
       />
 

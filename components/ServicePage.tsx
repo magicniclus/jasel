@@ -135,7 +135,7 @@ export default function ServicePage({
     "description": description,
     "provider": {
       "@type": "LocalBusiness",
-      "name": "LCCM",
+      "name": "NEWMAN",
       "telephone": contactInfo.phone,
       "email": contactInfo.email,
       "address": {

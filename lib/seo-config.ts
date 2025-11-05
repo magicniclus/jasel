@@ -14,28 +14,28 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "LCCM - Charpentier, Couvreur, Zingueur Plaquiste en Île de France et Sarthe",
-  description: "LCCM, entrepreneur du bâtiment spécialisé en charpente, couverture, zinguerie et plaquisterie. Devis gratuit en Île de France et Sarthe.",
+  title: "NEWMAN - Entrepreneur du bâtiment, ravalement, couverture en Bretagne",
+  description: "NEWMAN, entrepreneur du bâtiment spécialisé en ravalement, couverture et nettoyage de chantier. Devis gratuit en Bretagne.",
   keywords: [
-    "charpente Île de France",
-    "couverture Sarthe",
-    "zinguerie Île de France",
-    "plaquisterie Sarthe",
-    "entrepreneur bâtiment Île de France",
-    "charpente traditionnelle",
-    "couverture tuiles ardoises",
-    "zinguerie gouttières",
-    "plaquisterie cloisons",
+    "ravalement Bretagne",
+    "couverture Bretagne",
+    "nettoyage chantier Bretagne",
+    "entrepreneur bâtiment Bretagne",
+    "ravalement façade",
+    "couverture toiture",
+    "nettoyage toiture",
+    "pignon façade",
     "travaux toiture",
     "devis gratuit",
-    "LCCM",
-    "Leroux",
-    "charpentier couvreur",
-    "entrepreneur bâtiment"
+    "NEWMAN",
+    "Reinard",
+    "entrepreneur bâtiment",
+    "29000",
+    "Caimpert"
   ],
-  author: "Leroux",
-  siteUrl: "https://lccm.fr",
-  siteName: "LCCM - Charpente Couverture",
+  author: "Reinard",
+  siteUrl: "https://newman.fr",
+  siteName: "NEWMAN - Entrepreneur du bâtiment",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
@@ -116,49 +116,49 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "LCCM",
-  "legalName": "LCCM - Charpentier, couvreur, zingueur plaquiste",
+  "name": "NEWMAN",
+  "legalName": "Newman - Entrepreneur du bâtiment",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "Leroux"
+    "name": "Reinard"
   },
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Sarthe",
-    "postalCode": "72000",
-    "addressRegion": "Île de France",
+    "addressLocality": "Caimpert",
+    "postalCode": "29000",
+    "addressRegion": "Bretagne",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+33675874782",
+    "telephone": "+33645610178",
     "contactType": "customer service",
-    "email": "lccmsarthe@gmail.com",
+    "email": "diamantalive.fr@live.fr",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
-      "name": "Île de France"
+      "name": "Bretagne"
     },
     {
       "@type": "AdministrativeArea", 
-      "name": "Sarthe"
+      "name": "Finistère"
     },
     {
       "@type": "City",
-      "name": "Le Mans"
+      "name": "Caimpert"
     }
   ],
   "serviceType": [
-    "Charpente",
+    "Ravalement",
     "Couverture", 
-    "Zinguerie",
-    "Plaquisterie",
+    "Nettoyage de chantier",
+    "Toiture",
     "Travaux de toiture"
   ],
   "priceRange": "€€",
@@ -179,30 +179,30 @@ export const servicesSchema = {
   "areaServed": organizationSchema.areaServed,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services de charpente et couverture",
+    "name": "Services de ravalement et couverture",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Charpente",
-          "description": "Conception et réalisation de charpentes traditionnelles et industrielles"
+          "name": "Ravalement",
+          "description": "Ravalement de façades, pignons et murs extérieurs"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Couverture et zinguerie",
-          "description": "Pose et rénovation de couvertures, installation de systèmes de zinguerie"
+          "name": "Couverture",
+          "description": "Pose et rénovation de couvertures, travaux de toiture"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Plaquisterie",
-          "description": "Pose de cloisons, doublages et faux plafonds"
+          "name": "Nettoyage de chantier",
+          "description": "Nettoyage de toiture, pignon et façade"
         }
       }
     ]

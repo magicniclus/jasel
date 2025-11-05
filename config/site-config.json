@@ -1,16 +1,16 @@
 {
   "company": {
-    "name": "LCCM",
-    "legalName": "LCCM - Charpentier, couvreur, zingueur plaquiste",
-    "address": "Île de France, Sarthe",
-    "phone": "06 75 87 47 82",
-    "email": "lccmsarthe@gmail.com",
-    "siret": "SAS",
-    "ceo": "Leroux"
+    "name": "NEWMAN",
+    "legalName": "Newman - Entrepreneur du bâtiment",
+    "address": "Bretagne, 29000",
+    "phone": "06 45 61 01 78",
+    "email": "diamantalive.fr@live.fr",
+    "siret": "Entrepreneur",
+    "ceo": "Reinard"
   },
   "hero": {
-    "title": "LCCM - Charpentier, couvreur, zingueur plaquiste en Île de France et Sarthe",
-    "subtitle": "Entrepreneur du bâtiment spécialisé en charpente, couverture, zinguerie et plaquisterie. Expert du secteur de la construction, votre partenaire de confiance pour tous vos projets en Île de France et Sarthe.",
+    "title": "NEWMAN - Entrepreneur du bâtiment en Bretagne",
+    "subtitle": "Entrepreneur du bâtiment spécialisé en ravalement, couverture et nettoyage de chantier. Expert en toiture, pignon et façade, votre partenaire de confiance pour tous vos projets en Bretagne.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "/bg.png",
@@ -20,9 +20,9 @@
     "sections": [
       {
         "smallTitle": "Notre expertise",
-        "title": "Spécialiste charpente et couverture",
-        "subtitle": "Expert en charpente, couverture, zinguerie et plaquisterie",
-        "content": "LCCM est spécialisée dans les travaux de charpente, couverture, zinguerie et plaquisterie. Nous mettons notre expertise au service de vos projets : charpente traditionnelle et industrielle, couverture tuiles et ardoises, zinguerie et travaux de plaquisterie. Notre mission : apporter un service de qualité, rapide et efficace, dans le respect des délais et des normes en Île de France et Sarthe.",
+        "title": "Spécialiste ravalement et couverture",
+        "subtitle": "Expert en ravalement, couverture et nettoyage de chantier",
+        "content": "NEWMAN est spécialisée dans les travaux de ravalement, couverture et nettoyage de chantier. Nous mettons notre expertise au service de vos projets : ravalement de façades, travaux de couverture, nettoyage de toiture, pignon et façade. Notre mission : apporter un service de qualité, rapide et efficace, dans le respect des délais et des normes en Bretagne.",
         "image": "/about-1.png",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
@@ -32,9 +32,9 @@
       },
       {
         "smallTitle": "Nos spécialités",
-        "title": "Travaux de charpente et couverture",
-        "subtitle": "Expert en construction et rénovation",
-        "content": "Ce qui nous distingue, c'est notre expertise technique en charpente, couverture et zinguerie, notre rigueur et notre relation de confiance avec nos clients. Chaque chantier est pour nous une nouvelle occasion de prouver que nos métiers peuvent allier qualité et efficacité. Nous maîtrisons parfaitement les normes techniques et de sécurité en vigueur dans le secteur du bâtiment.",
+        "title": "Travaux de ravalement et nettoyage",
+        "subtitle": "Expert en rénovation et entretien",
+        "content": "Ce qui nous distingue, c'est notre expertise technique en ravalement, couverture et nettoyage de chantier, notre rigueur et notre relation de confiance avec nos clients. Chaque chantier est pour nous une nouvelle occasion de prouver que nos métiers peuvent allier qualité et efficacité. Nous maîtrisons parfaitement les normes techniques et de sécurité en vigueur dans le secteur du bâtiment.",
         "image": "/about-2.png",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
@@ -46,38 +46,38 @@
   },
   "gallery": {
     "title": "Nos Réalisations",
-    "subtitle": "Découvrez nos travaux de charpente, couverture, zinguerie et plaquisterie en Île de France et Sarthe",
+    "subtitle": "Découvrez nos travaux de ravalement, couverture et nettoyage de chantier en Bretagne",
     "initialDisplayCount": 4,
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop",
-        "alt": "Charpente traditionnelle",
-        "title": "Charpente traditionnelle - Île de France"
+        "alt": "Ravalement de façade",
+        "title": "Ravalement de façade - Bretagne"
       },
       {
         "src": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=800&fit=crop",
-        "alt": "Couverture tuiles",
-        "title": "Couverture tuiles - Sarthe"
+        "alt": "Couverture toiture",
+        "title": "Couverture toiture - Bretagne"
       },
       {
         "src": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=800&fit=crop",
-        "alt": "Zinguerie",
-        "title": "Zinguerie - Île de France"
+        "alt": "Nettoyage de chantier",
+        "title": "Nettoyage de chantier - Bretagne"
       },
       {
         "src": "https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=800&h=800&fit=crop",
-        "alt": "Toiture et charpente",
-        "title": "Toiture et charpente - Sarthe"
+        "alt": "Toiture et pignon",
+        "title": "Toiture et pignon - Bretagne"
       },
       {
         "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop",
-        "alt": "Plaquisterie",
-        "title": "Plaquisterie - Île de France"
+        "alt": "Ravalement pignon",
+        "title": "Ravalement pignon - Bretagne"
       },
       {
         "src": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=800&fit=crop",
-        "alt": "Charpente industrielle",
-        "title": "Charpente industrielle - Sarthe"
+        "alt": "Nettoyage toiture",
+        "title": "Nettoyage toiture - Bretagne"
       }
     ]
   },
@@ -88,9 +88,9 @@
   "team": {
     "members": [
       {
-        "name": "Leroux",
-        "position": "Fondateur & Expert Charpente-Couverture",
-        "description": "Passionné par le secteur du bâtiment, j'ai créé LCCM pour offrir des services de charpente, couverture, zinguerie et plaquisterie de qualité. Expert en charpente traditionnelle et industrielle, couverture et zinguerie, je mets mon expertise au service de vos projets en Île de France et Sarthe. Mon engagement : vous offrir un service de qualité, rapide et efficace, avec un souci constant du détail.",
+        "name": "Reinard",
+        "position": "Fondateur & Entrepreneur du bâtiment",
+        "description": "Passionné par le secteur du bâtiment, j'ai créé NEWMAN pour offrir des services de ravalement, couverture et nettoyage de chantier de qualité. Expert en ravalement de façades, travaux de couverture et nettoyage de toiture, pignon et façade, je mets mon expertise au service de vos projets en Bretagne. Mon engagement : vous offrir un service de qualité, rapide et efficace, avec un souci constant du détail.",
         "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
       }
     ]
