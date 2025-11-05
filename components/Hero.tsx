@@ -26,7 +26,7 @@ export default function Hero({
   backgroundImage,
   backgroundVideo,
   title = "AYA PRO - Spécialiste rénovation intérieure et extérieure en PACA",
-  description = "Entrepreneur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture, charpente et terrasse. Votre partenaire de confiance pour tous vos projets de rénovation en région PACA.",
+  description = "Entrepreneur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture, charpente et terrasse. Expert du secteur de la construction et de la rénovation, votre partenaire de confiance pour tous vos projets en région PACA.",
   bulletPoints = [
     "Spécialiste rénovation intérieure",
     "Expert peinture, plomberie, toiture",
