@@ -1,36 +1,36 @@
-import ServicePage from '@/components/ServicePage';
-import { generateServiceMetadata } from '@/lib/service-metadata';
+import ServicePage, { generateServiceMetadata } from '@/components/ServicePage';
 import { Metadata } from 'next';
 
 // Configuration de la page plomberie
 const plomberieConfig = {
   // SEO et métadonnées
-  title: "Plomberie PACA - Aix-en-Provence",
-  description: "AYA PRO, services de plomberie professionnels en région PACA. Installation, réparation, dépannage urgent. Devis gratuit et intervention rapide.",
+  title: "Plomberie - Installation et Réparation - Île de France et Sarthe",
+  description: "LCCM, services de plomberie professionnels en Île de France et Sarthe. Installation, réparation, dépannage urgent. Devis gratuit et intervention rapide.",
   keywords: [
-    "plomberie PACA",
-    "plombier Aix-en-Provence",
+    "plomberie Île de France",
+    "plomberie Sarthe",
+    "plombier Le Mans",
     "dépannage plomberie",
     "installation sanitaire",
     "réparation fuite",
     "plomberie urgence",
     "devis plomberie gratuit",
     "entrepreneur plombier",
-    "travaux plomberie"
+    "LCCM plomberie"
   ],
   
   // Contenu principal
   serviceName: "Plomberie",
   heroImage: "/plomberie.png",
   heroTitle: "Services de Plomberie Professionnels",
-  heroSubtitle: "Installation, réparation et dépannage de tous vos équipements de plomberie en région PACA. Intervention rapide et devis gratuit.",
+  heroSubtitle: "Installation, réparation et dépannage de tous vos équipements de plomberie en Île de France et Sarthe. Intervention rapide et devis gratuit.",
   
   // Secteur d'activité
   sector: "BTP - Plomberie",
-  location: "PACA",
+  location: "Île de France et Sarthe",
   
   // Contenu détaillé
-  mainDescription: "AYA PRO vous propose ses services de plomberie dans toute la région PACA. Fort de plusieurs années d'expérience dans le secteur du BTP, nous intervenons pour tous vos travaux de plomberie, de l'installation neuve au dépannage d'urgence. Notre expertise couvre l'ensemble des équipements sanitaires et de chauffage pour particuliers et professionnels.",
+  mainDescription: "LCCM vous propose ses services de plomberie en Île de France et Sarthe. Fort de plusieurs années d'expérience dans le secteur du BTP, nous intervenons pour tous vos travaux de plomberie, de l'installation neuve au dépannage d'urgence. Notre expertise couvre l'ensemble des équipements sanitaires et de chauffage pour particuliers et professionnels.",
   
   // Sous-prestations
   subServices: [
@@ -76,21 +76,21 @@ const plomberieConfig = {
   
   // Zone d'intervention
   serviceArea: [
-    "Aix-en-Provence",
-    "Région PACA",
-    "Bouches-du-Rhône",
-    "Marseille",
-    "Salon-de-Provence",
-    "Gardanne",
-    "Vitrolles",
-    "50 km autour d'Aix"
+    "Île de France",
+    "Sarthe",
+    "Le Mans",
+    "Sablé-sur-Sarthe",
+    "La Flèche",
+    "Mamers",
+    "Château-du-Loir",
+    "Bonnétable"
   ],
   
   // Informations de contact
   contactInfo: {
-    phone: "06 68 92 45 79",
-    email: "mraihi_7777@yahoo.com",
-    address: "Aix-en-Provence, PACA"
+    phone: "06 75 87 47 82",
+    email: "lccmsarthe@gmail.com",
+    address: "Île de France et Sarthe"
   },
   
 };

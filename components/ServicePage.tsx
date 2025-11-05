@@ -135,7 +135,7 @@ export default function ServicePage({
     "description": description,
     "provider": {
       "@type": "LocalBusiness",
-      "name": "RAFCOM",
+      "name": "LCCM",
       "telephone": contactInfo.phone,
       "email": contactInfo.email,
       "address": {
@@ -549,4 +549,35 @@ export default function ServicePage({
 
     </div>
   );
+}
+
+// Fonction pour générer les métadonnées SEO automatiquement
+export function generateServiceMetadata(
+  serviceName: string,
+  location: string,
+  description: string,
+  keywords: string[]
+): Metadata {
+  const title = `${serviceName} ${location} - LCCM | Devis Gratuit`;
+  
+  return {
+    title,
+    description,
+    keywords: keywords.join(', '),
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      locale: 'fr_FR',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
 }

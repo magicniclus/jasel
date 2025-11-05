@@ -1,70 +1,69 @@
-import ServicePage from '@/components/ServicePage';
-import { generateServiceMetadata } from '@/lib/service-metadata';
+import ServicePage, { generateServiceMetadata } from '@/components/ServicePage';
 import { Metadata } from 'next';
 
 // Configuration de la page rénovation intérieure
 const renovationInterieurConfig = {
   // SEO et métadonnées
-  title: "Rénovation Intérieure PACA - Aix-en-Provence",
-  description: "AYA PRO, spécialiste rénovation intérieure en région PACA. Travaux d'aménagement, cloisons, sols, peinture. Devis gratuit et personnalisé.",
+  title: "Aménagement Intérieur et Plaquisterie - Île de France et Sarthe",
+  description: "LCCM, spécialiste aménagement intérieur et plaquisterie en Île de France et Sarthe. Cloisons, doublages, faux plafonds. Devis gratuit et personnalisé.",
   keywords: [
-    "rénovation intérieure PACA",
-    "travaux rénovation Aix-en-Provence",
-    "aménagement appartement",
-    "devis gratuit rénovation",
-    "rénovation maison PACA",
-    "travaux intérieur Aix",
-    "entrepreneur rénovation",
-    "rénovation complète",
+    "aménagement intérieur Île de France",
+    "plaquisterie Sarthe",
+    "cloisons placo",
+    "devis gratuit aménagement",
+    "doublages murs",
+    "faux plafonds Le Mans",
+    "entrepreneur plaquiste",
+    "LCCM plaquisterie",
     "aménagement sur mesure"
   ],
   
   // Contenu principal
-  serviceName: "Rénovation Intérieure",
+  serviceName: "Aménagement Intérieur",
   heroImage: "/placo.png",
-  heroTitle: "Rénovation Intérieure Complète",
-  heroSubtitle: "Transformation et aménagement de vos espaces intérieurs en région PACA. Projet clé en main avec devis gratuit et personnalisé.",
+  heroTitle: "Aménagement Intérieur et Plaquisterie",
+  heroSubtitle: "Transformation et aménagement de vos espaces intérieurs en Île de France et Sarthe. Spécialiste cloisons et doublages avec devis gratuit.",
   
   // Secteur d'activité
-  sector: "BTP - Rénovation Intérieure",
-  location: "PACA",
+  sector: "BTP - Aménagement Intérieur",
+  location: "Île de France et Sarthe",
   
   // Contenu détaillé
-  mainDescription: "AYA PRO, entrepreneur du bâtiment spécialisé en rénovation intérieure en région PACA, vous accompagne dans tous vos projets de transformation d'espaces. Que vous souhaitiez rénover entièrement votre appartement, aménager de nouvelles pièces ou moderniser votre intérieur, nous vous proposons une prestation complète et sur mesure. Notre expertise dans le secteur du BTP nous permet de gérer tous les corps de métier pour un résultat harmonieux et de qualité.",
+  mainDescription: "LCCM, entrepreneur du bâtiment spécialisé en aménagement intérieur et plaquisterie en Île de France et Sarthe, vous accompagne dans tous vos projets de transformation d'espaces. Que vous souhaitiez créer de nouvelles pièces, aménager vos combles ou moderniser votre intérieur avec des cloisons, nous vous proposons une prestation complète et sur mesure. Notre expertise en plaquisterie nous permet de réaliser des aménagements durables et esthétiques.",
   
   // Sous-prestations
   subServices: [
     {
-      title: "Cloisons et aménagement",
-      description: "Création, modification ou suppression de cloisons pour optimiser vos espaces de vie"
+      title: "Cloisons Placo",
+      description: "Création de cloisons en plaques de plâtre pour créer de nouveaux espaces, séparations sur mesure"
     },
     {
-      title: "Revêtements de sols",
-      description: "Pose de carrelage, parquet, vinyle, moquette selon vos goûts et besoins"
+      title: "Doublages Muraux",
+      description: "Doublage de murs pour isolation thermique et phonique, amélioration du confort"
     },
     {
-      title: "Peinture et finitions",
-      description: "Peinture murale, plafonds, boiseries avec finitions soignées et durables"
+      title: "Faux Plafonds",
+      description: "Installation de faux plafonds suspendus, intégration d'éclairages et ventilation"
     },
     {
-      title: "Électricité",
-      description: "Mise aux normes électriques, création de points lumineux, prises et interrupteurs"
+      title: "Isolation Intérieure",
+      description: "Pose d'isolants thermiques et phoniques dans cloisons et doublages"
     },
     {
-      title: "Isolation thermique",
-      description: "Amélioration de l'isolation pour votre confort et économies d'énergie"
+      title: "Finitions et Joints",
+      description: "Réalisation des joints, ponçage, préparation pour peinture ou revêtements"
     },
     {
-      title: "Aménagement sur mesure",
-      description: "Création d'espaces personnalisés : dressing, bibliothèque, rangements"
+      title: "Aménagement Combles",
+      description: "Aménagement de combles avec cloisons et doublages adaptés aux contraintes"
     },
     {
-      title: "Démolition",
-      description: "Démolition sécurisée de cloisons non porteuses et évacuation des gravats"
+      title: "Réparation Placo",
+      description: "Réparation de fissures, trous, remise en état de cloisons existantes"
     },
     {
-      title: "Finitions décoratives",
-      description: "Pose de moulures, plinthes, habillage et tous éléments décoratifs"
+      title: "Pose d'Huisseries",
+      description: "Intégration de portes, fenêtres dans les cloisons, finitions soignées"
     }
   ],
   
@@ -84,21 +83,21 @@ const renovationInterieurConfig = {
   
   // Zone d'intervention
   serviceArea: [
-    "Aix-en-Provence",
-    "Région PACA",
-    "Bouches-du-Rhône",
-    "Marseille",
-    "Salon-de-Provence",
-    "Gardanne",
-    "Vitrolles",
-    "50 km autour d'Aix"
+    "Île de France",
+    "Sarthe",
+    "Le Mans",
+    "Sablé-sur-Sarthe",
+    "La Flèche",
+    "Mamers",
+    "Château-du-Loir",
+    "Bonnétable"
   ],
   
   // Informations de contact
   contactInfo: {
-    phone: "06 68 92 45 79",
-    email: "mraihi_7777@yahoo.com",
-    address: "Aix-en-Provence, PACA"
+    phone: "06 75 87 47 82",
+    email: "lccmsarthe@gmail.com",
+    address: "Île de France et Sarthe"
   }
   
   // Pas de section pricing selon les instructions

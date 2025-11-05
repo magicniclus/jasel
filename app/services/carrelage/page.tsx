@@ -1,36 +1,35 @@
-import ServicePage from '@/components/ServicePage';
-import { generateServiceMetadata } from '@/lib/service-metadata';
+import ServicePage, { generateServiceMetadata } from '@/components/ServicePage';
 import { Metadata } from 'next';
 
 // Configuration de la page carrelage
 const carrelageConfig = {
   // SEO et métadonnées
-  title: "Carrelage PACA - Aix-en-Provence",
-  description: "AYA PRO, spécialiste pose de carrelage en région PACA. Carrelage sol, faïence murale, mosaïque. Devis gratuit et personnalisé pour tous vos projets.",
+  title: "Carrelage - Pose Professionnelle - Île de France et Sarthe",
+  description: "LCCM, spécialiste pose de carrelage en Île de France et Sarthe. Carrelage sol, faïence murale, mosaïque. Devis gratuit et personnalisé pour tous vos projets.",
   keywords: [
-    "carrelage PACA",
-    "pose carrelage Aix-en-Provence",
+    "carrelage Île de France",
+    "pose carrelage Sarthe",
     "faïence salle de bain",
     "devis carrelage gratuit",
-    "carrelage sol PACA",
-    "mosaïque Aix",
+    "carrelage sol Sarthe",
+    "mosaïque Le Mans",
     "entrepreneur carreleur",
     "pose carrelage professionnel",
-    "carrelage pierre naturelle"
+    "LCCM carrelage"
   ],
   
   // Contenu principal
   serviceName: "Carrelage",
   heroImage: "/mur.png",
   heroTitle: "Pose de Carrelage Professionnelle",
-  heroSubtitle: "Expert en pose de carrelage, faïence et mosaïque en région PACA. Finitions parfaites avec devis gratuit et personnalisé.",
+  heroSubtitle: "Expert en pose de carrelage, faïence et mosaïque en Île de France et Sarthe. Finitions parfaites avec devis gratuit et personnalisé.",
   
   // Secteur d'activité
   sector: "BTP - Carrelage",
-  location: "PACA",
+  location: "Île de France et Sarthe",
   
   // Contenu détaillé
-  mainDescription: "AYA PRO, entrepreneur spécialisé en carrelage en région PACA, vous propose ses services de pose de carrelage pour tous vos projets. Que ce soit pour votre salle de bain, cuisine, salon ou terrasse, nous maîttrisons tous les types de revêtements céramiques. Notre savoir-faire dans le secteur du BTP nous permet de vous garantir une pose professionnelle avec des finitions impeccables et une étanchéité parfaite.",
+  mainDescription: "LCCM, entrepreneur spécialisé en carrelage en Île de France et Sarthe, vous propose ses services de pose de carrelage pour tous vos projets. Que ce soit pour votre salle de bain, cuisine, salon ou terrasse, nous maîttrisons tous les types de revêtements céramiques. Notre savoir-faire dans le secteur du BTP nous permet de vous garantir une pose professionnelle avec des finitions impeccables et une étanchéité parfaite.",
   
   // Sous-prestations
   subServices: [
@@ -84,21 +83,21 @@ const carrelageConfig = {
   
   // Zone d'intervention
   serviceArea: [
-    "Aix-en-Provence",
-    "Région PACA",
-    "Bouches-du-Rhône",
-    "Marseille",
-    "Salon-de-Provence",
-    "Gardanne",
-    "Vitrolles",
-    "50 km autour d'Aix"
+    "Île de France",
+    "Sarthe",
+    "Le Mans",
+    "Sablé-sur-Sarthe",
+    "La Flèche",
+    "Mamers",
+    "Château-du-Loir",
+    "Bonnétable"
   ],
   
   // Informations de contact
   contactInfo: {
-    phone: "06 68 92 45 79",
-    email: "mraihi_7777@yahoo.com",
-    address: "Aix-en-Provence, PACA"
+    phone: "06 75 87 47 82",
+    email: "lccmsarthe@gmail.com",
+    address: "Île de France et Sarthe"
   }
   
   // Pas de section pricing selon les instructions

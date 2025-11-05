@@ -27,7 +27,7 @@ export default function Home() {
       image: "/placo.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
-      href: "/services/toiture-charpente"
+      href: "/services/charpente"
     },
     {
       title: "Couverture",
@@ -36,7 +36,7 @@ export default function Home() {
       image: "/plomberie.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2",
-      href: "/services/toiture-charpente"
+      href: "/services/couverture"
     },
     {
       title: "Zinguerie",
@@ -45,7 +45,7 @@ export default function Home() {
       image: "/plomberie.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
-      href: "/services/toiture-charpente"
+      href: "/services/zinguerie"
     },
     {
       title: "Plaquisterie",
@@ -54,7 +54,7 @@ export default function Home() {
       image: "/mur.png",
       gradientFrom: "#6f42c1",
       gradientTo: "#e83e8c",
-      href: "/services/renovation-interieure"
+      href: "/services/plaquisterie"
     }
   ];
 

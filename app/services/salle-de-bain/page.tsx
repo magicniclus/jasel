@@ -1,36 +1,35 @@
-import ServicePage from '@/components/ServicePage';
-import { generateServiceMetadata } from '@/lib/service-metadata';
+import ServicePage, { generateServiceMetadata } from '@/components/ServicePage';
 import { Metadata } from 'next';
 
 // Configuration de la page salle de bain
 const salleDeBainConfig = {
   // SEO et métadonnées
-  title: "Rénovation Salle de Bain PACA - Aix-en-Provence",
-  description: "AYA PRO, spécialiste rénovation salle de bain en région PACA. Création, aménagement, carrelage, plomberie. Devis gratuit et réalisation clé en main.",
+  title: "Rénovation Salle de Bain - Île de France et Sarthe",
+  description: "LCCM, spécialiste rénovation salle de bain en Île de France et Sarthe. Création, aménagement, carrelage, plomberie. Devis gratuit et réalisation clé en main.",
   keywords: [
-    "rénovation salle de bain PACA",
-    "salle de bain Aix-en-Provence",
+    "rénovation salle de bain Île de France",
+    "salle de bain Sarthe",
     "carrelage salle de bain",
     "aménagement salle de bain",
     "douche italienne",
     "rénovation sanitaire",
     "entrepreneur salle de bain",
     "devis salle de bain gratuit",
-    "travaux salle de bain"
+    "LCCM salle de bain"
   ],
   
   // Contenu principal
   serviceName: "Rénovation Salle de Bain",
   heroImage: "/maison-work.png",
   heroTitle: "Rénovation de Salle de Bain sur Mesure",
-  heroSubtitle: "Création et rénovation complète de salles de bain en région PACA. Du design à la réalisation, nous vous accompagnons dans votre projet.",
+  heroSubtitle: "Création et rénovation complète de salles de bain en Île de France et Sarthe. Du design à la réalisation, nous vous accompagnons dans votre projet.",
   
   // Secteur d'activité
   sector: "BTP - Rénovation Sanitaire",
-  location: "PACA",
+  location: "Île de France et Sarthe",
   
   // Contenu détaillé
-  mainDescription: "AYA PRO, spécialiste de la rénovation de salle de bain en région PACA, vous accompagne dans la transformation de votre espace sanitaire. Que vous souhaitiez moderniser une salle de bain existante ou créer un nouvel espace, nous vous proposons une prestation complète incluant la conception, la plomberie, le carrelage et les finitions. Notre expertise dans le secteur du BTP nous permet de réaliser des projets sur mesure, alliant fonctionnalité et esthétique.",
+  mainDescription: "LCCM, spécialiste de la rénovation de salle de bain en Île de France et Sarthe, vous accompagne dans la transformation de votre espace sanitaire. Que vous souhaitiez moderniser une salle de bain existante ou créer un nouvel espace, nous vous proposons une prestation complète incluant la conception, la plomberie, le carrelage et les finitions. Notre expertise dans le secteur du BTP nous permet de réaliser des projets sur mesure, alliant fonctionnalité et esthétique.",
   
   // Sous-prestations
   subServices: [
@@ -76,21 +75,21 @@ const salleDeBainConfig = {
   
   // Zone d'intervention
   serviceArea: [
-    "Aix-en-Provence",
-    "Région PACA",
-    "Bouches-du-Rhône",
-    "Marseille",
-    "Salon-de-Provence",
-    "Gardanne",
-    "Vitrolles",
-    "50 km autour d'Aix"
+    "Île de France",
+    "Sarthe",
+    "Le Mans",
+    "Sablé-sur-Sarthe",
+    "La Flèche",
+    "Mamers",
+    "Château-du-Loir",
+    "Bonnétable"
   ],
   
   // Informations de contact
   contactInfo: {
-    phone: "06 68 92 45 79",
-    email: "mraihi_7777@yahoo.com",
-    address: "Aix-en-Provence, PACA"
+    phone: "06 75 87 47 82",
+    email: "lccmsarthe@gmail.com",
+    address: "Île de France et Sarthe"
   },
   
 };

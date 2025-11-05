@@ -15,10 +15,10 @@ export default function Footer() {
   ];
 
   const servicesLinks = [
-    { name: 'Charpente', href: '/services/toiture-charpente' },
-    { name: 'Couverture', href: '/services/toiture-charpente' },
-    { name: 'Zinguerie', href: '/services/toiture-charpente' },
-    { name: 'Plaquisterie', href: '/services/renovation-interieure' },
+    { name: 'Charpente', href: '/services/charpente' },
+    { name: 'Couverture', href: '/services/couverture' },
+    { name: 'Zinguerie', href: '/services/zinguerie' },
+    { name: 'Plaquisterie', href: '/services/plaquisterie' },
   ];
 
   return (
