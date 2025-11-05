@@ -81,7 +81,7 @@ export default function MerciPage() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Analyse de votre demande</h3>
                 <p className="text-gray-600 text-sm">
-                  Nous étudions votre demande de rénovation et préparons notre intervention.
+                  Nous étudions votre demande de charpente, couverture, zinguerie ou plaquisterie et préparons notre intervention.
                 </p>
               </div>
             </motion.div>
@@ -98,7 +98,7 @@ export default function MerciPage() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Prise de contact sous 24h</h3>
                 <p className="text-gray-600 text-sm">
-                  Notre équipe AYA PRO vous contacte pour affiner votre demande et planifier les travaux de rénovation.
+                  Notre équipe LCCM vous contacte pour affiner votre demande et planifier vos travaux.
                 </p>
               </div>
             </motion.div>
@@ -115,7 +115,7 @@ export default function MerciPage() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Devis personnalisé</h3>
                 <p className="text-gray-600 text-sm">
-                  Recevez un devis détaillé pour vos travaux de rénovation.
+                  Recevez un devis détaillé pour vos travaux de charpente, couverture, zinguerie ou plaquisterie.
                 </p>
               </div>
             </motion.div>
@@ -137,7 +137,7 @@ export default function MerciPage() {
                   <Phone className="h-5 w-5 text-orange-600" />
                 </div>
                 <div>
-                  <p className="font-medium text-gray-900">06 68 92 45 79</p>
+                  <p className="font-medium text-gray-900">06 75 87 47 82</p>
                   <p className="text-sm text-gray-600">Lun-Ven 9h-18h</p>
                 </div>
               </div>
@@ -146,7 +146,7 @@ export default function MerciPage() {
                   <Mail className="h-5 w-5 text-orange-600" />
                 </div>
                 <div>
-                  <p className="font-medium text-gray-900">mraihi_7777@yahoo.com</p>
+                  <p className="font-medium text-gray-900">lccmsarthe@gmail.com</p>
                   <p className="text-sm text-gray-600">Réponse sous 2h</p>
                 </div>
               </div>

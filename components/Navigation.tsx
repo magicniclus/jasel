@@ -19,17 +19,17 @@ export default function Navigation() {
   const [showFloatingButton, setShowFloatingButton] = useState(false);
   const [showServicesDropdown, setShowServicesDropdown] = useState(false);
   const pathname = usePathname();
-  const phoneNumber = "06 68 92 45 79";
+  const phoneNumber = "06 75 87 47 82";
 
   // Détecter si on est sur la page d'accueil
   const isHomePage = pathname === '/';
 
   // Liste des services pour le dropdown
   const servicesLinks = [
-    { name: 'Rénovation Intérieure', href: '/services/renovation-interieure' },
-    { name: 'Peinture', href: '/services/peinture' },
-    { name: 'Plomberie', href: '/services/plomberie' },
-    { name: 'Toiture & Charpente', href: '/services/toiture-charpente' },
+    { name: 'Charpente', href: '/services/toiture-charpente' },
+    { name: 'Couverture', href: '/services/toiture-charpente' },
+    { name: 'Zinguerie', href: '/services/toiture-charpente' },
+    { name: 'Plaquisterie', href: '/services/renovation-interieure' },
   ];
 
   // Navigation adaptative selon la page
@@ -101,10 +101,10 @@ export default function Navigation() {
               </motion.div>
               <div className="flex flex-col">
                 <span className="text-2xl font-bold text-foreground">
-                  AYA PRO
+                  LCCM
                 </span>
                 <span className="text-sm text-gray-500 font-medium">
-                  rénovation intérieur | extérieur
+                  charpente | couverture | zinguerie
                 </span>
               </div>
             </Link>
@@ -288,10 +288,10 @@ export default function Navigation() {
                 </motion.div>
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-foreground">
-                    AYA PRO
+                    LCCM
                   </span>
                   <span className="text-xs text-gray-400 font-medium">
-                    rénovation intérieur | extérieur
+                    charpente | couverture | zinguerie
                   </span>
                 </div>
               </div>

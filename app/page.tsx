@@ -21,68 +21,50 @@ export default function Home() {
   });
   const servicesData = [
     {
-      title: "Rénovation Intérieure",
-      subtitle: "Aménagement et rénovation",
-      content: "Rénovation complète de vos espaces intérieurs. Intervention professionnelle pour transformer et moderniser votre habitat selon vos besoins.",
+      title: "Charpente Traditionnelle",
+      subtitle: "Charpente sur mesure",
+      content: "Conception et réalisation de charpentes traditionnelles en bois. Expertise artisanale pour structures durables et esthétiques.",
       image: "/placo.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
-      href: "/services/renovation-interieure"
+      href: "/services/toiture-charpente"
     },
     {
-      title: "Peinture",
-      subtitle: "Travaux de peinture",
-      content: "Travaux de peinture intérieure et extérieure. Application professionnelle pour donner une nouvelle vie à vos murs et façades.",
+      title: "Couverture",
+      subtitle: "Toiture et étanchéité",
+      content: "Pose et rénovation de couvertures : tuiles, ardoises, zinc. Solutions complètes pour l'étanchéité et l'isolation de votre toiture.",
       image: "/plomberie.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2",
-      href: "/services/peinture"
+      href: "/services/toiture-charpente"
     },
     {
-      title: "Plomberie",
-      subtitle: "Installation et réparation",
-      content: "Services de plomberie complets : installation, réparation et maintenance. Solutions adaptées pour tous vos besoins en plomberie.",
+      title: "Zinguerie",
+      subtitle: "Évacuation des eaux",
+      content: "Installation et réparation de systèmes de zinguerie : gouttières, chéneaux, descentes. Expertise en évacuation des eaux pluviales.",
       image: "/plomberie.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
-      href: "/services/plomberie"
+      href: "/services/toiture-charpente"
     },
     {
-      title: "Carrelage",
-      subtitle: "Pose professionnelle",
-      content: "Pose de carrelage sol et mural, faïence, mosaïque. Finitions parfaites avec étanchéité garantie pour tous vos projets.",
+      title: "Plaquisterie",
+      subtitle: "Cloisons et doublages",
+      content: "Pose de cloisons, doublages et faux plafonds. Aménagement intérieur avec finitions soignées pour tous vos espaces.",
       image: "/mur.png",
       gradientFrom: "#6f42c1",
       gradientTo: "#e83e8c",
-      href: "/services/carrelage"
-    },
-    {
-      title: "Salle de Bain",
-      subtitle: "Rénovation complète",
-      content: "Création et rénovation de salles de bain sur mesure. Du design à la réalisation, nous vous accompagnons dans votre projet.",
-      image: "/maison-work.png",
-      gradientFrom: "#17a2b8",
-      gradientTo: "#6610f2",
-      href: "/services/salle-de-bain"
-    },
-    {
-      title: "Toiture & Charpente",
-      subtitle: "Couverture et structure",
-      content: "Travaux de toiture et charpente. Expertise professionnelle pour la réfection, réparation et entretien de votre couverture.",
-      image: "/mur.png",
-      gradientFrom: "#fd7e14",
-      gradientTo: "#ffc107",
-      href: "/services/toiture-charpente"
+      href: "/services/renovation-interieure"
     }
   ];
 
 
 
   const contactInfo = {
-    address: "Aix-en-Provence\nRégion PACA\nRayon d'intervention : 50 km autour d'Aix",
-    phone: "06 68 92 45 79",
-    email: "mraihi_7777@yahoo.com",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Aix-en-Provence,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    address: "Île de France et Sarthe\nIntervention dans toute la région\nHors Paris intramuros",
+    phone: "06 75 87 47 82",
+    email: "lccmsarthe@gmail.com",
+    mapEmbedUrl: "https://maps.google.com/maps?q=Sarthe,France&t=&z=10&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -133,7 +115,7 @@ export default function Home() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de votre projet de rénovation intérieure, peinture, plomberie ou toiture en région PACA"
+        subtitle="Parlons de votre projet de charpente, couverture, zinguerie ou plaquisterie en Île de France et Sarthe"
         contactInfo={contactInfo} 
       />
 

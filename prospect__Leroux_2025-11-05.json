@@ -1,0 +1,41 @@
+{
+  "id": "JYDqWWB1VYjMwmPXB7oo",
+  "informationsPersonnelles": {
+    "nom": "Leroux",
+    "prenom": "",
+    "email": "lccmsarthe@gmail.com",
+    "telephone": "0675874782",
+    "etape": "R2",
+    "date": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1762247227,
+      "nanoseconds": 89000000
+    },
+    "rgpd": false,
+    "commentaire": "omiplus ( a nantes ), 5 chantiers par mois"
+  },
+  "informationsEntreprise": {
+    "nomEntreprise": "",
+    "entreprise": "LCCM",
+    "metier": "Charpentier, couvreur, zingueur plaquiste",
+    "secteurActivite": "ile de france hors paris sarthe surtout ivlyne",
+    "raisonSociale": "SAS",
+    "anneeCreation": "",
+    "nombreCollaborateurs": "2-5",
+    "prestation": "",
+    "rayonIntervention": "",
+    "certifications": "",
+    "garanties": "Décennale",
+    "partenaires": ""
+  },
+  "siteWebEtCommunication": {
+    "siteWebExistant": false,
+    "siteWebURL": "",
+    "logo": false,
+    "sitePret": false
+  },
+  "metadonnees": {
+    "dateExport": "2025-11-05T15:27:28.846Z",
+    "exportePar": "Admin Trouver Mon Chantier"
+  }
+}

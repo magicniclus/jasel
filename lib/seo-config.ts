@@ -14,28 +14,28 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "AYA PRO - Rénovation Intérieure et Extérieure en PACA",
-  description: "AYA PRO, entrepreneur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture et charpente. Devis gratuit en région PACA, Aix-en-Provence.",
+  title: "LCCM - Charpentier, Couvreur, Zingueur Plaquiste en Île de France et Sarthe",
+  description: "LCCM, entrepreneur du bâtiment spécialisé en charpente, couverture, zinguerie et plaquisterie. Devis gratuit en Île de France et Sarthe.",
   keywords: [
-    "rénovation intérieure PACA",
-    "peinture Aix-en-Provence",
-    "plomberie région PACA",
-    "toiture charpente Aix",
-    "entrepreneur bâtiment PACA",
-    "rénovation maison Aix-en-Provence",
-    "travaux peinture intérieure",
-    "aménagement intérieur",
-    "rénovation complète",
+    "charpente Île de France",
+    "couverture Sarthe",
+    "zinguerie Île de France",
+    "plaquisterie Sarthe",
+    "entrepreneur bâtiment Île de France",
+    "charpente traditionnelle",
+    "couverture tuiles ardoises",
+    "zinguerie gouttières",
+    "plaquisterie cloisons",
     "travaux toiture",
     "devis gratuit",
-    "AYA PRO",
-    "Mossaddak Mraihi",
-    "rénovation PACA",
+    "LCCM",
+    "Leroux",
+    "charpentier couvreur",
     "entrepreneur bâtiment"
   ],
-  author: "Mossaddak Mraihi",
-  siteUrl: "https://ayapro.fr",
-  siteName: "AYA PRO - Rénovation",
+  author: "Leroux",
+  siteUrl: "https://lccm.fr",
+  siteName: "LCCM - Charpente Couverture",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
@@ -116,50 +116,50 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "AYA PRO",
-  "legalName": "Aya pro - Entreprise de rénovation",
+  "name": "LCCM",
+  "legalName": "LCCM - Charpentier, couvreur, zingueur plaquiste",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "Mossaddak Mraihi"
+    "name": "Leroux"
   },
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Aix-en-Provence",
-    "postalCode": "13100",
-    "addressRegion": "PACA",
+    "addressLocality": "Sarthe",
+    "postalCode": "72000",
+    "addressRegion": "Île de France",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+33668924579",
+    "telephone": "+33675874782",
     "contactType": "customer service",
-    "email": "mraihi_7777@yahoo.com",
+    "email": "lccmsarthe@gmail.com",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
-      "name": "PACA"
+      "name": "Île de France"
     },
     {
       "@type": "AdministrativeArea", 
-      "name": "Bouches-du-Rhône"
+      "name": "Sarthe"
     },
     {
       "@type": "City",
-      "name": "Aix-en-Provence"
+      "name": "Le Mans"
     }
   ],
   "serviceType": [
-    "Rénovation intérieure",
-    "Peinture", 
-    "Plomberie",
-    "Toiture et charpente",
-    "Travaux de rénovation"
+    "Charpente",
+    "Couverture", 
+    "Zinguerie",
+    "Plaquisterie",
+    "Travaux de toiture"
   ],
   "priceRange": "€€",
   "openingHours": "Mo-Fr 08:00-18:00",
@@ -179,30 +179,30 @@ export const servicesSchema = {
   "areaServed": organizationSchema.areaServed,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services de rénovation",
+    "name": "Services de charpente et couverture",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Rénovation intérieure",
-          "description": "Rénovation complète de vos espaces intérieurs, aménagement et modernisation"
+          "name": "Charpente",
+          "description": "Conception et réalisation de charpentes traditionnelles et industrielles"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Peinture et plomberie",
-          "description": "Travaux de peinture intérieure et extérieure, services de plomberie complets"
+          "name": "Couverture et zinguerie",
+          "description": "Pose et rénovation de couvertures, installation de systèmes de zinguerie"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Toiture et charpente",
-          "description": "Travaux de toiture, réfection et entretien de charpente"
+          "name": "Plaquisterie",
+          "description": "Pose de cloisons, doublages et faux plafonds"
         }
       }
     ]

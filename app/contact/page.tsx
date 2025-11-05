@@ -46,11 +46,11 @@ export default function ContactPage() {
   };
 
   const contactInfo = {
-    address: "Zone d'intervention :\nAix-en-Provence\nRégion PACA\n50 km autour d'Aix",
-    phone: "06 68 92 45 79",
-    email: "mraihi_7777@yahoo.com",
+    address: "Zone d'intervention :\nÎle de France et Sarthe\nIntervention dans toute la région\nHors Paris intramuros",
+    phone: "06 75 87 47 82",
+    email: "lccmsarthe@gmail.com",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Aix-en-Provence,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=Sarthe,France&t=&z=10&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -71,7 +71,7 @@ export default function ContactPage() {
               Contactez-nous
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              Un projet de rénovation intérieure, peinture, plomberie ou toiture ? Notre équipe AYA PRO est là pour vous accompagner en région PACA.
+              Un projet de charpente, couverture, zinguerie ou plaquisterie ? Notre équipe LCCM est là pour vous accompagner en Île de France et Sarthe.
             </p>
           </motion.div>
         </div>
@@ -307,7 +307,7 @@ export default function ContactPage() {
               Besoin d'un devis rapide ?
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Appelez-nous directement pour obtenir une estimation gratuite de vos interventions techniques.
+              Appelez-nous directement pour obtenir une estimation gratuite de vos travaux de charpente, couverture, zinguerie ou plaquisterie.
             </p>
             <Button
               size="lg"

@@ -1,16 +1,16 @@
 {
   "company": {
-    "name": "AYA PRO",
-    "legalName": "Aya pro - Entreprise de rénovation",
-    "address": "Aix-en-Provence, PACA",
-    "phone": "06 68 92 45 79",
-    "email": "mraihi_7777@yahoo.com",
-    "siret": "EURL",
-    "ceo": "MOSSADDAK MRAIHI"
+    "name": "LCCM",
+    "legalName": "LCCM - Charpentier, couvreur, zingueur plaquiste",
+    "address": "Île de France, Sarthe",
+    "phone": "06 75 87 47 82",
+    "email": "lccmsarthe@gmail.com",
+    "siret": "SAS",
+    "ceo": "Leroux"
   },
   "hero": {
-    "title": "AYA PRO - Spécialiste rénovation intérieure et extérieure en PACA",
-    "subtitle": "Entrepreneur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture, charpente et terrasse. Votre partenaire de confiance pour tous vos projets de rénovation en région PACA.",
+    "title": "LCCM - Charpentier, couvreur, zingueur plaquiste en Île de France et Sarthe",
+    "subtitle": "Entrepreneur du bâtiment spécialisé en charpente, couverture, zinguerie et plaquisterie. Expert du secteur de la construction, votre partenaire de confiance pour tous vos projets en Île de France et Sarthe.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "",
@@ -20,9 +20,9 @@
     "sections": [
       {
         "smallTitle": "Notre expertise",
-        "title": "Spécialiste de la rénovation",
-        "subtitle": "Expert en rénovation intérieure et extérieure",
-        "content": "AYA PRO est spécialisée dans les travaux de rénovation intérieure et extérieure. Nous mettons notre expertise au service de vos projets de rénovation : peinture, plomberie, toiture, charpente et terrasse. Notre mission : apporter un service de qualité, rapide et efficace, dans le respect des délais et des normes en région PACA.",
+        "title": "Spécialiste charpente et couverture",
+        "subtitle": "Expert en charpente, couverture, zinguerie et plaquisterie",
+        "content": "LCCM est spécialisée dans les travaux de charpente, couverture, zinguerie et plaquisterie. Nous mettons notre expertise au service de vos projets : charpente traditionnelle et industrielle, couverture tuiles et ardoises, zinguerie et travaux de plaquisterie. Notre mission : apporter un service de qualité, rapide et efficace, dans le respect des délais et des normes en Île de France et Sarthe.",
         "image": "/maison-work.png",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
@@ -32,9 +32,9 @@
       },
       {
         "smallTitle": "Nos spécialités",
-        "title": "Travaux de rénovation complets",
-        "subtitle": "Expert en rénovation et aménagement",
-        "content": "Ce qui nous distingue, c'est notre expertise technique, notre rigueur et notre relation de confiance avec nos clients. Chaque chantier est pour nous une nouvelle occasion de prouver que la rénovation peut allier qualité et efficacité. Nous maîtrisons parfaitement les normes techniques et de sécurité en vigueur dans le secteur du bâtiment.",
+        "title": "Travaux de charpente et couverture",
+        "subtitle": "Expert en construction et rénovation",
+        "content": "Ce qui nous distingue, c'est notre expertise technique en charpente, couverture et zinguerie, notre rigueur et notre relation de confiance avec nos clients. Chaque chantier est pour nous une nouvelle occasion de prouver que nos métiers peuvent allier qualité et efficacité. Nous maîtrisons parfaitement les normes techniques et de sécurité en vigueur dans le secteur du bâtiment.",
         "image": "/plomberie.png",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
@@ -46,38 +46,38 @@
   },
   "gallery": {
     "title": "Nos Réalisations",
-    "subtitle": "Découvrez nos travaux de rénovation intérieure, peinture, plomberie, toiture et terrasse en région PACA",
+    "subtitle": "Découvrez nos travaux de charpente, couverture, zinguerie et plaquisterie en Île de France et Sarthe",
     "initialDisplayCount": 4,
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop",
-        "alt": "Rénovation intérieure",
-        "title": "Rénovation intérieure - Aix-en-Provence"
+        "alt": "Charpente traditionnelle",
+        "title": "Charpente traditionnelle - Île de France"
       },
       {
         "src": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=800&fit=crop",
-        "alt": "Travaux de peinture",
-        "title": "Travaux de peinture - PACA"
+        "alt": "Couverture tuiles",
+        "title": "Couverture tuiles - Sarthe"
       },
       {
         "src": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=800&fit=crop",
-        "alt": "Plomberie",
-        "title": "Plomberie - Aix-en-Provence"
+        "alt": "Zinguerie",
+        "title": "Zinguerie - Île de France"
       },
       {
         "src": "https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=800&h=800&fit=crop",
         "alt": "Toiture et charpente",
-        "title": "Toiture et charpente - PACA"
+        "title": "Toiture et charpente - Sarthe"
       },
       {
         "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop",
-        "alt": "Aménagement terrasse",
-        "title": "Aménagement terrasse - Aix"
+        "alt": "Plaquisterie",
+        "title": "Plaquisterie - Île de France"
       },
       {
         "src": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=800&fit=crop",
-        "alt": "Rénovation complète",
-        "title": "Rénovation complète - PACA"
+        "alt": "Charpente industrielle",
+        "title": "Charpente industrielle - Sarthe"
       }
     ]
   },
@@ -88,9 +88,9 @@
   "team": {
     "members": [
       {
-        "name": "Mossaddak Mraihi",
-        "position": "Fondateur & Expert Rénovation",
-        "description": "Passionné par le secteur du bâtiment, j'ai créé AYA PRO pour offrir des services de rénovation de qualité. Expert en rénovation intérieure, peinture, plomberie, toiture et charpente, je mets mon expertise au service de vos projets en région PACA. Mon engagement : vous offrir un service de qualité, rapide et efficace, avec un souci constant du détail.",
+        "name": "Leroux",
+        "position": "Fondateur & Expert Charpente-Couverture",
+        "description": "Passionné par le secteur du bâtiment, j'ai créé LCCM pour offrir des services de charpente, couverture, zinguerie et plaquisterie de qualité. Expert en charpente traditionnelle et industrielle, couverture et zinguerie, je mets mon expertise au service de vos projets en Île de France et Sarthe. Mon engagement : vous offrir un service de qualité, rapide et efficace, avec un souci constant du détail.",
         "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
       }
     ]
