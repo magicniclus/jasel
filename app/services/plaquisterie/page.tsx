@@ -1,4 +1,5 @@
-import ServicePage, { generateServiceMetadata } from '@/components/ServicePage';
+import ServicePage from '@/components/ServicePage';
+import { generateServiceMetadata } from '@/lib/service-metadata';
 import { Metadata } from 'next';
 
 const plaquisterieConfig = {

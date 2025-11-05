@@ -7,16 +7,16 @@ export function generateServiceMetadata(
   description: string,
   keywords: string[]
 ): Metadata {
-  const title = `${serviceName} ${location} - AYA PRO | Devis Gratuit`;
+  const title = `${serviceName} ${location} - LCCM | Devis Gratuit`;
   const metaDescription = `${description} Intervention rapide en ${location}. Devis gratuit et personnalisé.`;
 
   return {
     title,
     description: metaDescription,
     keywords: keywords.join(', '),
-    authors: [{ name: 'AYA PRO' }],
-    creator: 'AYA PRO',
-    publisher: 'AYA PRO',
+    authors: [{ name: 'LCCM' }],
+    creator: 'LCCM',
+    publisher: 'LCCM',
     formatDetection: {
       email: false,
       address: false,
@@ -27,7 +27,7 @@ export function generateServiceMetadata(
       description: metaDescription,
       type: 'website',
       locale: 'fr_FR',
-      siteName: 'AYA PRO - Rénovation',
+      siteName: 'LCCM - Charpente Couverture',
     },
     twitter: {
       card: 'summary_large_image',
