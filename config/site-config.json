@@ -14,7 +14,7 @@
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "/bg.png",
-    "backgroundVideo": "/video.mp4"
+    "backgroundVideo": ""
   },
   "about": {
     "sections": [
