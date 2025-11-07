@@ -26,7 +26,7 @@ export default function Hero({
   backgroundImage,
   backgroundVideo,
   title = "DOBRE TUDOREL SILVIAN - Entreprise de nettoyage en PACA",
-  description = "Entrepreneur du bâtiment spécialisé en nettoyage de chantier, nettoyage de bureau et nettoyage particulier. Expert du secteur de la construction et du nettoyage professionnel, votre partenaire de confiance pour tous vos projets de nettoyage en région PACA.",
+  description = "Entrepreneur du bâtiment spécialisé en nettoyage de chantier, nettoyage de bureau et nettoyage particulier. Expert reconnu dans le secteur du BTP et du nettoyage professionnel, votre partenaire de confiance pour tous vos projets de nettoyage en région PACA.",
   bulletPoints = [
     "Spécialiste nettoyage de chantier",
     "Expert nettoyage de bureau",
