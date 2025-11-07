@@ -25,12 +25,12 @@ export default function Hero({
   config,
   backgroundImage,
   backgroundVideo,
-  title = "AYA PRO - Spécialiste rénovation intérieure et extérieure en PACA",
-  description = "Entrepreneur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture, charpente et terrasse. Expert du secteur de la construction, de la rénovation et de l'immobilier, votre partenaire de confiance pour tous vos projets en région PACA.",
+  title = "DOBRE TUDOREL SILVIAN - Entrepreneur du bâtiment en PACA",
+  description = "Entrepreneur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture et charpente. Expert du secteur de la construction, de la rénovation et de l'immobilier, votre partenaire de confiance pour tous vos projets en région PACA.",
   bulletPoints = [
-    "Spécialiste charpente et couverture",
-    "Expert zinguerie et plaquisterie",
-    "Intervention en Île de France et Sarthe"
+    "Spécialiste rénovation intérieure et extérieure",
+    "Expert peinture, plomberie et toiture",
+    "Intervention en région PACA"
   ],
   googleReviewsWidget
 }: HeroProps) {
