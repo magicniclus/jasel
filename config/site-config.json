@@ -1,16 +1,16 @@
 {
   "company": {
-    "name": "DOBRE TUDOREL SILVIAN",
-    "legalName": "Dobre Tudorel Silvian - Entrepreneur du bâtiment",
-    "address": "13090, Provence-Alpes-Côte d'Azur",
-    "phone": "07 59 37 19 21",
-    "email": "dcezar978@gmail.com",
+    "name": "JASEL",
+    "legalName": "Jasel - Entrepreneur du bâtiment",
+    "address": "01150, Auvergne-Rhône-Alpes",
+    "phone": "06 87 18 47 96",
+    "email": "mehtapmurat@hotmail.fr",
     "siret": "Entrepreneur",
-    "ceo": "Dobre Tudorel Silvian"
+    "ceo": "Avuclu Selcuk"
   },
   "hero": {
-    "title": "DOBRE TUDOREL SILVIAN - Entreprise de nettoyage en PACA",
-    "subtitle": "Entrepreneur du bâtiment spécialisé en nettoyage de chantier, nettoyage de bureau et nettoyage particulier. Expert du secteur de la construction et du nettoyage professionnel, votre partenaire de confiance pour tous vos projets de nettoyage en région PACA.",
+    "title": "JASEL - Entreprise de peinture et parquet en Auvergne-Rhône-Alpes",
+    "subtitle": "Entrepreneur du bâtiment spécialisé en peinture intérieure, pose de parquet et toile. Expert reconnu dans le secteur du BTP, votre partenaire de confiance pour tous vos projets de rénovation en Auvergne-Rhône-Alpes.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "/bg.png",
@@ -20,9 +20,9 @@
     "sections": [
       {
         "smallTitle": "Notre expertise",
-        "title": "Spécialiste nettoyage de chantier et particulier",
-        "subtitle": "Expert en nettoyage professionnel et à domicile",
-        "content": "DOBRE TUDOREL SILVIAN est spécialisé dans les services de nettoyage de chantier, nettoyage particulier et nettoyage à domicile. Nous mettons notre expertise au service de vos projets : nettoyage après travaux, entretien de locaux, nettoyage résidentiel et commercial. Notre mission : apporter un service de qualité, rapide et efficace, dans le respect des délais et des normes d'hygiène en région PACA.",
+        "title": "Spécialiste peinture intérieure et parquet",
+        "subtitle": "Expert en rénovation et décoration",
+        "content": "JASEL est spécialisé dans les services de peinture intérieure, pose de parquet et toile décorative. Nous mettons notre expertise au service de vos projets : rénovation d'intérieur, décoration, pose de revêtements. Notre mission : apporter un service de qualité, rapide et efficace, dans le respect des délais et des finitions soignées en Auvergne-Rhône-Alpes.",
         "image": "/about-1.png",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
@@ -32,9 +32,9 @@
       },
       {
         "smallTitle": "Nos spécialités",
-        "title": "Services de nettoyage professionnel",
-        "subtitle": "Expert du secteur de la construction et du nettoyage",
-        "content": "Ce qui nous distingue, c'est notre expertise technique dans le secteur du nettoyage professionnel, notre rigueur et notre relation de confiance avec nos clients. Chaque intervention est pour nous une nouvelle occasion de prouver que nos services peuvent allier qualité et efficacité. Nous maîtrisons parfaitement les normes d'hygiène et de sécurité en vigueur dans le secteur du nettoyage.",
+        "title": "Services de rénovation intérieure",
+        "subtitle": "Expert du secteur du BTP et de la décoration",
+        "content": "Ce qui nous distingue, c'est notre expertise technique dans le secteur de la peinture et du parquet, notre rigueur et notre relation de confiance avec nos clients. Chaque intervention est pour nous une nouvelle occasion de prouver que nos services peuvent allier qualité et esthétique. Nous maîtrisons parfaitement les techniques de pose et les finitions haut de gamme.",
         "image": "/about-2.png",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
@@ -46,38 +46,38 @@
   },
   "gallery": {
     "title": "Nos Réalisations",
-    "subtitle": "Découvrez nos services de nettoyage de chantier, nettoyage particulier et nettoyage à domicile en région PACA",
+    "subtitle": "Découvrez nos services de peinture intérieure, pose de parquet et toile décorative en Auvergne-Rhône-Alpes",
     "initialDisplayCount": 4,
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop",
-        "alt": "Ravalement de façade",
-        "title": "Ravalement de façade - Bretagne"
+        "alt": "Peinture intérieure",
+        "title": "Peinture intérieure - Auvergne-Rhône-Alpes"
       },
       {
         "src": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=800&fit=crop",
-        "alt": "Couverture toiture",
-        "title": "Couverture toiture - Bretagne"
+        "alt": "Pose de parquet",
+        "title": "Pose de parquet - Auvergne-Rhône-Alpes"
       },
       {
         "src": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=800&fit=crop",
-        "alt": "Nettoyage de chantier",
-        "title": "Nettoyage de chantier - Bretagne"
+        "alt": "Toile décorative",
+        "title": "Toile décorative - Auvergne-Rhône-Alpes"
       },
       {
         "src": "https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=800&h=800&fit=crop",
-        "alt": "Toiture et pignon",
-        "title": "Toiture et pignon - Bretagne"
+        "alt": "Rénovation intérieure",
+        "title": "Rénovation intérieure - Auvergne-Rhône-Alpes"
       },
       {
         "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop",
-        "alt": "Ravalement pignon",
-        "title": "Ravalement pignon - Bretagne"
+        "alt": "Finitions peinture",
+        "title": "Finitions peinture - Auvergne-Rhône-Alpes"
       },
       {
         "src": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=800&fit=crop",
-        "alt": "Nettoyage toiture",
-        "title": "Nettoyage toiture - Bretagne"
+        "alt": "Parquet massif",
+        "title": "Parquet massif - Auvergne-Rhône-Alpes"
       }
     ]
   },
@@ -88,9 +88,9 @@
   "team": {
     "members": [
       {
-        "name": "Dobre Tudorel Silvian",
+        "name": "Avuclu Selcuk",
         "position": "Fondateur & Entrepreneur du bâtiment",
-        "description": "Passionné par le secteur de la construction et du nettoyage professionnel, j'ai créé mon entreprise pour offrir des services de nettoyage de chantier, nettoyage particulier et nettoyage à domicile de qualité. Expert du secteur du nettoyage, je mets mon expertise au service de vos projets en région PACA. Mon engagement : vous offrir un service de qualité, rapide et efficace, avec un souci constant du détail.",
+        "description": "Passionné par le secteur du BTP et de la décoration intérieure, j'ai créé JASEL pour offrir des services de peinture intérieure, pose de parquet et toile décorative de qualité. Expert du secteur de la rénovation, je mets mon expertise au service de vos projets en Auvergne-Rhône-Alpes. Mon engagement : vous offrir un service de qualité, rapide et efficace, avec un souci constant du détail et des finitions.",
         "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
       }
     ]

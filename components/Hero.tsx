@@ -25,12 +25,12 @@ export default function Hero({
   config,
   backgroundImage,
   backgroundVideo,
-  title = "DOBRE TUDOREL SILVIAN - Entreprise de nettoyage en PACA",
-  description = "Entrepreneur du bâtiment spécialisé en nettoyage de chantier, nettoyage de bureau et nettoyage particulier. Expert reconnu dans le secteur du BTP et du nettoyage professionnel, votre partenaire de confiance pour tous vos projets de nettoyage en région PACA.",
+  title = "JASEL - Entreprise de peinture et parquet en Auvergne-Rhône-Alpes",
+  description = "Entrepreneur du bâtiment spécialisé en peinture intérieure, pose de parquet et toile décorative. Expert reconnu dans le secteur du BTP, votre partenaire de confiance pour tous vos projets de rénovation en Auvergne-Rhône-Alpes.",
   bulletPoints = [
-    "Spécialiste nettoyage de chantier",
-    "Expert nettoyage de bureau",
-    "Professionnel nettoyage particulier"
+    "Spécialiste peinture intérieure",
+    "Expert pose de parquet",
+    "Professionnel toile décorative"
   ],
   googleReviewsWidget
 }: HeroProps) {

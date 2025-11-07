@@ -1,0 +1,41 @@
+{
+  "id": "wo6MPSLIQG713d9yQNLD",
+  "informationsPersonnelles": {
+    "nom": "selcuk",
+    "prenom": "Avuclu",
+    "email": "mehtapmurat@hotmail.fr",
+    "telephone": "0687184796",
+    "etape": "R2",
+    "date": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1762255868,
+      "nanoseconds": 108000000
+    },
+    "rgpd": true,
+    "commentaire": ""
+  },
+  "informationsEntreprise": {
+    "nomEntreprise": "Jasel",
+    "entreprise": "Jasel",
+    "metier": "Peintre interieur, parquet, toile",
+    "secteurActivite": "Auvergne-Rhône-Alpes",
+    "raisonSociale": "Auto-entrepreneur",
+    "anneeCreation": "2024",
+    "nombreCollaborateurs": "1",
+    "prestation": "Peintre",
+    "rayonIntervention": "01150",
+    "certifications": "",
+    "garanties": "",
+    "partenaires": ""
+  },
+  "siteWebEtCommunication": {
+    "siteWebExistant": false,
+    "siteWebURL": "",
+    "logo": false,
+    "sitePret": false
+  },
+  "metadonnees": {
+    "dateExport": "2025-11-07T09:19:17.192Z",
+    "exportePar": "Admin Trouver Mon Chantier"
+  }
+}

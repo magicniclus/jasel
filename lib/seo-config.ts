@@ -14,28 +14,28 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "DOBRE TUDOREL SILVIAN - Entreprise de nettoyage, nettoyage chantier PACA",
-  description: "DOBRE TUDOREL SILVIAN, entrepreneur du bâtiment spécialisé en nettoyage de chantier, nettoyage particulier et nettoyage à domicile. Devis gratuit en région PACA.",
+  title: "JASEL - Entreprise de peinture intérieure et parquet Auvergne-Rhône-Alpes",
+  description: "JASEL, entrepreneur du bâtiment spécialisé en peinture intérieure, pose de parquet et toile décorative. Devis gratuit en Auvergne-Rhône-Alpes.",
   keywords: [
-    "nettoyage chantier PACA",
-    "nettoyage particulier PACA",
-    "nettoyage domicile PACA",
-    "entrepreneur bâtiment PACA",
-    "nettoyage commercial",
-    "nettoyage professionnel",
-    "entreprise nettoyage",
-    "nettoyage après travaux",
-    "entretien locaux",
+    "peinture intérieure Auvergne-Rhône-Alpes",
+    "pose parquet Auvergne-Rhône-Alpes",
+    "toile décorative Auvergne-Rhône-Alpes",
+    "entrepreneur bâtiment Auvergne-Rhône-Alpes",
+    "rénovation intérieure",
+    "peinture professionnelle",
+    "entreprise peinture",
+    "parquet massif",
+    "papier peint",
     "devis gratuit",
-    "DOBRE TUDOREL SILVIAN",
-    "Dobre Tudorel Silvian",
+    "JASEL",
+    "Avuclu Selcuk",
     "entrepreneur bâtiment",
-    "13090",
-    "Provence-Alpes-Côte d'Azur"
+    "01150",
+    "Auvergne-Rhône-Alpes"
   ],
-  author: "Dobre Tudorel Silvian",
-  siteUrl: "https://dobre-tudorel-silvian.fr",
-  siteName: "DOBRE TUDOREL SILVIAN - Entreprise de nettoyage",
+  author: "Avuclu Selcuk",
+  siteUrl: "https://jasel.fr",
+  siteName: "JASEL - Entreprise de peinture et parquet",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
@@ -116,50 +116,46 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "DOBRE TUDOREL SILVIAN",
-  "legalName": "Dobre Tudorel Silvian - Entrepreneur du bâtiment",
+  "name": "JASEL",
+  "legalName": "Jasel - Entrepreneur du bâtiment",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "Dobre Tudorel Silvian"
+    "name": "Avuclu Selcuk"
   },
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "13090",
-    "postalCode": "13090",
-    "addressRegion": "Provence-Alpes-Côte d'Azur",
+    "addressLocality": "01150",
+    "postalCode": "01150",
+    "addressRegion": "Auvergne-Rhône-Alpes",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+33759371921",
+    "telephone": "+33687184796",
     "contactType": "customer service",
-    "email": "dcezar978@gmail.com",
+    "email": "mehtapmurat@hotmail.fr",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
-      "name": "Provence-Alpes-Côte d'Azur"
-    },
-    {
-      "@type": "AdministrativeArea", 
-      "name": "PACA"
+      "name": "Auvergne-Rhône-Alpes"
     },
     {
       "@type": "City",
-      "name": "13090"
+      "name": "01150"
     }
   ],
   "serviceType": [
-    "Nettoyage de chantier",
-    "Nettoyage particulier", 
-    "Nettoyage à domicile",
-    "Nettoyage commercial",
-    "Nettoyage professionnel"
+    "Peinture intérieure",
+    "Pose de parquet", 
+    "Toile décorative",
+    "Rénovation intérieure",
+    "Peinture professionnelle"
   ],
   "priceRange": "€€",
   "openingHours": "Mo-Fr 08:00-18:00",
@@ -172,45 +168,45 @@ export const organizationSchema = {
 export const servicesSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Cleaning Services",
+  "serviceType": "Home Improvement Services",
   "provider": {
     "@id": `${seoConfig.siteUrl}#organization`
   },
   "areaServed": organizationSchema.areaServed,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services de nettoyage professionnel",
+    "name": "Services de peinture et parquet professionnel",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Nettoyage de chantier",
-          "description": "Nettoyage après travaux, nettoyage de chantiers de construction"
+          "name": "Peinture intérieure",
+          "description": "Peinture intérieure professionnelle, murs, plafonds, boiseries"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Nettoyage particulier",
-          "description": "Services de nettoyage pour particuliers, entretien régulier"
+          "name": "Pose de parquet",
+          "description": "Pose de parquet massif, contrecollé, stratifié"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Nettoyage à domicile",
-          "description": "Nettoyage à domicile, entretien ménager professionnel"
+          "name": "Toile décorative",
+          "description": "Pose de toile décorative et papier peint"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Nettoyage commercial",
-          "description": "Nettoyage de locaux commerciaux et professionnels"
+          "name": "Rénovation intérieure",
+          "description": "Rénovation intérieure complète, projet clé en main"
         }
       }
     ]

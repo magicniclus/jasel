@@ -46,11 +46,11 @@ export default function ContactPage() {
   };
 
   const contactInfo = {
-    address: "Zone d'intervention :\n13090, Provence-Alpes-Côte d'Azur\nIntervention dans toute la région PACA\nNettoyage professionnel",
-    phone: "07 59 37 19 21",
-    email: "dcezar978@gmail.com",
+    address: "Zone d'intervention :\n01150, Auvergne-Rhône-Alpes\nIntervention dans toute la région\nPeinture et parquet",
+    phone: "06 87 18 47 96",
+    email: "mehtapmurat@hotmail.fr",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=13090,Provence-Alpes-Côte+d'Azur,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=01150,Auvergne-Rhône-Alpes,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -71,7 +71,7 @@ export default function ContactPage() {
               Contactez-nous
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              Un projet de nettoyage de chantier, nettoyage particulier ou nettoyage à domicile ? Notre équipe DOBRE TUDOREL SILVIAN est là pour vous accompagner en région PACA.
+              Un projet de peinture intérieure, pose de parquet ou toile décorative ? Notre équipe JASEL est là pour vous accompagner en Auvergne-Rhône-Alpes.
             </p>
           </motion.div>
         </div>
@@ -307,7 +307,7 @@ export default function ContactPage() {
               Besoin d'un devis rapide ?
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Appelez-nous directement pour obtenir une estimation gratuite de vos services de nettoyage de chantier, nettoyage particulier et nettoyage à domicile.
+              Appelez-nous directement pour obtenir une estimation gratuite de vos services de peinture intérieure, pose de parquet et toile décorative.
             </p>
             <Button
               size="lg"

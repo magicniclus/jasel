@@ -21,50 +21,50 @@ export default function Home() {
   });
   const servicesData = [
     {
-      title: "Nettoyage de chantier",
-      subtitle: "Nettoyage après travaux",
-      content: "Nettoyage professionnel de chantiers après travaux. Évacuation des gravats, dépoussiérage et remise en état complète de vos locaux en région PACA.",
+      title: "Peinture intérieure",
+      subtitle: "Rénovation et décoration",
+      content: "Peinture intérieure professionnelle : murs, plafonds, boiseries. Préparation des surfaces, application de peintures de qualité et finitions soignées en Auvergne-Rhône-Alpes.",
       image: "/maison.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
-      href: "/services/nettoyage-chantier"
+      href: "/services/peinture"
     },
     {
-      title: "Nettoyage particulier",
-      subtitle: "Entretien résidentiel",
-      content: "Services de nettoyage pour particuliers : entretien régulier, grand ménage, nettoyage de printemps. Solutions personnalisées pour votre domicile.",
+      title: "Pose de parquet",
+      subtitle: "Revêtement de sol",
+      content: "Pose de parquet professionnel : parquet massif, contrecollé, stratifié. Installation soignée et finitions parfaites pour tous types de parquets.",
       image: "/plomberie.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2",
-      href: "/services/nettoyage-particulier"
+      href: "/services/parquet"
     },
     {
-      title: "Nettoyage à domicile",
-      subtitle: "Service à domicile",
-      content: "Nettoyage à domicile professionnel : ménage, repassage, entretien. Service personnalisé et de qualité directement chez vous en PACA.",
+      title: "Toile décorative",
+      subtitle: "Décoration murale",
+      content: "Pose de toile décorative et papier peint : préparation des murs, pose soignée et finitions parfaites. Décoration personnalisée pour votre intérieur.",
       image: "/peinture.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
-      href: "/services/nettoyage-domicile"
+      href: "/services/toile-decorative"
     },
     {
-      title: "Nettoyage commercial",
-      subtitle: "Locaux professionnels",
-      content: "Nettoyage de locaux commerciaux et professionnels : bureaux, magasins, entrepôts. Entretien régulier et ponctuel pour entreprises.",
+      title: "Rénovation intérieure",
+      subtitle: "Projet complet",
+      content: "Rénovation intérieure complète : peinture, parquet, toile. Projet clé en main avec finitions haut de gamme pour transformer votre intérieur.",
       image: "/about-1.png",
       gradientFrom: "#6f42c1",
       gradientTo: "#e83e8c",
-      href: "/services/nettoyage-commercial"
+      href: "/services/renovation-interieure"
     }
   ];
 
 
 
   const contactInfo = {
-    address: "13090, Provence-Alpes-Côte d'Azur\nIntervention dans toute la région PACA\nNettoyage professionnel",
-    phone: "07 59 37 19 21",
-    email: "dcezar978@gmail.com",
-    mapEmbedUrl: "https://maps.google.com/maps?q=13090,Provence-Alpes-Côte+d'Azur,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    address: "01150, Auvergne-Rhône-Alpes\nIntervention dans toute la région\nPeinture et parquet",
+    phone: "06 87 18 47 96",
+    email: "mehtapmurat@hotmail.fr",
+    mapEmbedUrl: "https://maps.google.com/maps?q=01150,Auvergne-Rhône-Alpes,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -115,7 +115,7 @@ export default function Home() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de votre projet de nettoyage de chantier, nettoyage particulier ou nettoyage à domicile en région PACA"
+        subtitle="Parlons de votre projet de peinture intérieure, pose de parquet ou toile décorative en Auvergne-Rhône-Alpes"
         contactInfo={contactInfo} 
       />
 

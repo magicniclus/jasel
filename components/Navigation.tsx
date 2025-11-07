@@ -19,17 +19,17 @@ export default function Navigation() {
   const [showFloatingButton, setShowFloatingButton] = useState(false);
   const [showServicesDropdown, setShowServicesDropdown] = useState(false);
   const pathname = usePathname();
-  const phoneNumber = "07 59 37 19 21";
+  const phoneNumber = "06 87 18 47 96";
 
   // Détecter si on est sur la page d'accueil
   const isHomePage = pathname === '/';
 
   // Liste des services pour le dropdown
   const servicesLinks = [
-    { name: 'Nettoyage de chantier', href: '/services/nettoyage-chantier' },
-    { name: 'Nettoyage particulier', href: '/services/nettoyage-particulier' },
-    { name: 'Nettoyage à domicile', href: '/services/nettoyage-domicile' },
-    { name: 'Nettoyage commercial', href: '/services/nettoyage-commercial' },
+    { name: 'Peinture intérieure', href: '/services/peinture' },
+    { name: 'Pose de parquet', href: '/services/parquet' },
+    { name: 'Toile décorative', href: '/services/toile-decorative' },
+    { name: 'Rénovation intérieure', href: '/services/renovation-interieure' },
   ];
 
   // Navigation adaptative selon la page
@@ -101,10 +101,10 @@ export default function Navigation() {
               </motion.div>
               <div className="flex flex-col">
                 <span className="text-2xl font-bold text-foreground">
-                  DOBRE TUDOREL SILVIAN
+                  JASEL
                 </span>
                 <span className="text-sm text-gray-500 font-medium">
-                  nettoyage chantier | particulier | domicile
+                  peinture | parquet | toile décorative
                 </span>
               </div>
             </Link>
@@ -288,10 +288,10 @@ export default function Navigation() {
                 </motion.div>
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-foreground">
-                    DOBRE TUDOREL SILVIAN
+                    JASEL
                   </span>
                   <span className="text-xs text-gray-400 font-medium">
-                    nettoyage chantier | particulier | domicile
+                    peinture | parquet | toile décorative
                   </span>
                 </div>
               </div>

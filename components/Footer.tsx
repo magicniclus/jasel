@@ -15,10 +15,10 @@ export default function Footer() {
   ];
 
   const servicesLinks = [
-    { name: 'Nettoyage de chantier', href: '/services/nettoyage-chantier' },
-    { name: 'Nettoyage particulier', href: '/services/nettoyage-particulier' },
-    { name: 'Nettoyage à domicile', href: '/services/nettoyage-domicile' },
-    { name: 'Nettoyage commercial', href: '/services/nettoyage-commercial' },
+    { name: 'Peinture intérieure', href: '/services/peinture' },
+    { name: 'Pose de parquet', href: '/services/parquet' },
+    { name: 'Toile décorative', href: '/services/toile-decorative' },
+    { name: 'Rénovation intérieure', href: '/services/renovation-interieure' },
   ];
 
   return (
@@ -50,17 +50,17 @@ export default function Footer() {
                   />
                 </motion.div>
                 <span className="text-xl font-bold">
-                  DOBRE TUDOREL SILVIAN
+                  JASEL
                 </span>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Entrepreneur du bâtiment spécialisé en nettoyage de chantier, nettoyage particulier et nettoyage à domicile en région PACA.
+                Entrepreneur du bâtiment spécialisé en peinture intérieure, pose de parquet et toile décorative en Auvergne-Rhône-Alpes.
               </p>
               <a 
-                href="tel:0759371921" 
+                href="tel:0687184796" 
                 className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
               >
-                07 59 37 19 21
+                06 87 18 47 96
               </a>
             </motion.div>
 
@@ -122,11 +122,11 @@ export default function Footer() {
               <h3 className="text-lg font-semibold">Contact</h3>
               <div className="space-y-2">
                 <a 
-                  href="tel:0759371921"
+                  href="tel:0687184796"
                   className="text-slate-300 hover:text-white text-sm transition-colors duration-200 block flex items-center space-x-2"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>07 59 37 19 21</span>
+                  <span>06 87 18 47 96</span>
                 </a>
                 <p className="text-slate-400 text-xs">
                   Service gratuit 7j/7 de 9h à 19h
@@ -147,7 +147,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              © {currentYear} DOBRE TUDOREL SILVIAN. Tous droits réservés.
+              © {currentYear} JASEL. Tous droits réservés.
             </motion.p>
 
             {/* Powered by */}
