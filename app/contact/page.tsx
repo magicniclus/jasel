@@ -46,11 +46,11 @@ export default function ContactPage() {
   };
 
   const contactInfo = {
-    address: "Zone d'intervention :\nBretagne (29000)\nIntervention dans toute la région\nCaimpert et alentours",
-    phone: "06 45 61 01 78",
-    email: "diamantalive.fr@live.fr",
+    address: "Zone d'intervention :\n13090, Provence-Alpes-Côte d'Azur\nIntervention dans toute la région PACA\nNettoyage professionnel",
+    phone: "07 59 37 19 21",
+    email: "dcezar978@gmail.com",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Bretagne,France&t=&z=10&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=13090,Provence-Alpes-Côte+d'Azur,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -71,7 +71,7 @@ export default function ContactPage() {
               Contactez-nous
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              Un projet de ravalement, couverture ou nettoyage de chantier ? Notre équipe NEWMAN est là pour vous accompagner en Bretagne.
+              Un projet de nettoyage de chantier, nettoyage particulier ou nettoyage à domicile ? Notre équipe DOBRE TUDOREL SILVIAN est là pour vous accompagner en région PACA.
             </p>
           </motion.div>
         </div>
@@ -307,7 +307,7 @@ export default function ContactPage() {
               Besoin d'un devis rapide ?
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Appelez-nous directement pour obtenir une estimation gratuite de vos travaux de ravalement, couverture et nettoyage de chantier.
+              Appelez-nous directement pour obtenir une estimation gratuite de vos services de nettoyage de chantier, nettoyage particulier et nettoyage à domicile.
             </p>
             <Button
               size="lg"

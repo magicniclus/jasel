@@ -15,10 +15,10 @@ export default function Footer() {
   ];
 
   const servicesLinks = [
-    { name: 'Ravalement', href: '/services/ravalement' },
-    { name: 'Couverture', href: '/services/couverture' },
-    { name: 'Nettoyage de couverture et façade', href: '/services/nettoyage-chantier' },
-    { name: 'Toiture', href: '/services/toiture' },
+    { name: 'Nettoyage de chantier', href: '/services/nettoyage-chantier' },
+    { name: 'Nettoyage particulier', href: '/services/nettoyage-particulier' },
+    { name: 'Nettoyage à domicile', href: '/services/nettoyage-domicile' },
+    { name: 'Nettoyage commercial', href: '/services/nettoyage-commercial' },
   ];
 
   return (
@@ -50,17 +50,17 @@ export default function Footer() {
                   />
                 </motion.div>
                 <span className="text-xl font-bold">
-                  NEWMAN
+                  DOBRE TUDOREL SILVIAN
                 </span>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Entrepreneur du bâtiment spécialisé en ravalement, couverture et nettoyage de chantier en Bretagne.
+                Entrepreneur du bâtiment spécialisé en nettoyage de chantier, nettoyage particulier et nettoyage à domicile en région PACA.
               </p>
               <a 
-                href="tel:0645610178" 
+                href="tel:0759371921" 
                 className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
               >
-                06 45 61 01 78
+                07 59 37 19 21
               </a>
             </motion.div>
 
@@ -122,11 +122,11 @@ export default function Footer() {
               <h3 className="text-lg font-semibold">Contact</h3>
               <div className="space-y-2">
                 <a 
-                  href="tel:0645610178"
+                  href="tel:0759371921"
                   className="text-slate-300 hover:text-white text-sm transition-colors duration-200 block flex items-center space-x-2"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>06 45 61 01 78</span>
+                  <span>07 59 37 19 21</span>
                 </a>
                 <p className="text-slate-400 text-xs">
                   Service gratuit 7j/7 de 9h à 19h
@@ -147,7 +147,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              © {currentYear} NEWMAN. Tous droits réservés.
+              © {currentYear} DOBRE TUDOREL SILVIAN. Tous droits réservés.
             </motion.p>
 
             {/* Powered by */}

@@ -4,8 +4,8 @@ import { Metadata } from 'next';
 
 // Métadonnées SEO pour la page
 export const metadata: Metadata = generateMetadata(
-  'Nettoyage de couverture et façade en Bretagne - Devis gratuit',
-  'NEWMAN, spécialiste du nettoyage de couverture et façade en Bretagne. Nettoyage de toiture, pignon et façade. Devis gratuit et personnalisé.',
+  'Nettoyage de chantier PACA - Devis gratuit',
+  'DOBRE TUDOREL SILVIAN, spécialiste du nettoyage de chantier en PACA. Nettoyage après travaux, évacuation gravats. Devis gratuit et personnalisé.',
   '/peinture.png',
   '/services/nettoyage-chantier'
 );
@@ -13,55 +13,63 @@ export const metadata: Metadata = generateMetadata(
 export default function NettoyageChantierPage() {
   const serviceData = {
     // SEO et métadonnées
-    title: 'Nettoyage de couverture et façade en Bretagne - Devis gratuit',
-    description: 'NEWMAN, spécialiste du nettoyage de couverture et façade en Bretagne. Nettoyage de toiture, pignon et façade. Devis gratuit et personnalisé.',
+    title: 'Nettoyage de chantier PACA - Devis gratuit',
+    description: 'DOBRE TUDOREL SILVIAN, spécialiste du nettoyage de chantier en PACA. Nettoyage après travaux, évacuation gravats. Devis gratuit et personnalisé.',
     keywords: [
-      'nettoyage chantier Bretagne',
-      'nettoyage toiture Bretagne',
-      'nettoyage façade 29000',
+      'nettoyage chantier PACA',
+      'nettoyage après travaux 13090',
+      'nettoyage fin de chantier PACA',
       'devis nettoyage gratuit',
-      'nettoyage pignon Caimpert',
-      'entrepreneur nettoyage Bretagne'
+      'évacuation gravats PACA',
+      'entrepreneur nettoyage PACA'
     ],
     
     // Contenu principal
-    serviceName: 'Nettoyage de couverture et façade',
+    serviceName: 'Nettoyage de chantier',
     heroImage: '/peinture.png',
-    heroTitle: 'Nettoyage de couverture et façade en Bretagne',
-    heroSubtitle: 'Expert en nettoyage de toiture, pignon et façade. Service professionnel pour l\'entretien et la propreté de vos bâtiments. Devis gratuit et personnalisé.',
+    heroTitle: 'Nettoyage de chantier en PACA',
+    heroSubtitle: 'Expert en nettoyage après travaux et fin de chantier. Service professionnel pour la remise en état complète de vos locaux. Devis gratuit et personnalisé.',
     
     // Secteur d'activité
-    sector: 'Bâtiment',
-    location: 'Bretagne',
+    sector: 'Nettoyage professionnel',
+    location: 'PACA',
     
     // Contenu détaillé
-    mainDescription: 'NEWMAN est votre spécialiste du nettoyage de couverture et façade en Bretagne. Nous intervenons pour le nettoyage professionnel de toiture, pignon et façade sur toute la région. Notre expertise nous permet de redonner une propreté optimale à vos bâtiments tout en préservant leurs matériaux. Nous utilisons des techniques adaptées et des produits respectueux de l\'environnement pour garantir un résultat durable.',
+    mainDescription: 'DOBRE TUDOREL SILVIAN est votre spécialiste du nettoyage de chantier en région PACA. Nous intervenons pour le nettoyage professionnel après travaux, l\'enlevèment des gravats et la remise en état complète de vos locaux. Notre expertise nous permet de vous livrer des espaces parfaitement propres et prêts à l\'usage. Nous utilisons des techniques adaptées et des équipements professionnels pour garantir un résultat impeccable.',
     
     // Sous-prestations
     subServices: [
       {
-        title: 'Nettoyage de toiture',
-        description: 'Nettoyage complet des toitures : démoussage, élimination des lichens et salissures'
+        title: 'Nettoyage après travaux',
+        description: 'Nettoyage complet après rénovation : dépoussiérage, lavage des surfaces'
       },
       {
-        title: 'Nettoyage de façades',
-        description: 'Nettoyage professionnel des façades pour éliminer pollution, mousses et traces'
+        title: 'Évacuation des gravats',
+        description: 'Évacuation et élimination des déchets de chantier et matériaux'
       },
       {
-        title: 'Nettoyage de pignons',
-        description: 'Traitement spécialisé des murs pignons pour une propreté optimale'
+        title: 'Nettoyage de fin de chantier',
+        description: 'Remise en état finale pour livraison clé en main'
       },
       {
-        title: 'Démoussage',
-        description: 'Élimination des mousses et lichens sur toutes surfaces extérieures'
+        title: 'Dépoussiérage professionnel',
+        description: 'Élimination complète de la poussière de plâtre et ciment'
       },
       {
-        title: 'Nettoyage haute pression',
-        description: 'Nettoyage à haute pression adapté selon le type de surface et matériau'
+        title: 'Nettoyage vitres et menuiseries',
+        description: 'Nettoyage des fenêtres, portes et éléments de menuiserie'
       },
       {
-        title: 'Nettoyage fin de chantier',
-        description: 'Nettoyage complet après travaux pour une finition parfaite'
+        title: 'Nettoyage sols et revêtements',
+        description: 'Nettoyage adapté selon le type de sol : carrelage, parquet, béton'
+      },
+      {
+        title: 'Désinfection des locaux',
+        description: 'Désinfection complète pour une hygiène parfaite'
+      },
+      {
+        title: 'Nettoyage sanitaires',
+        description: 'Nettoyage et désinfection des installations sanitaires'
       }
     ],
     
@@ -70,28 +78,31 @@ export default function NettoyageChantierPage() {
       'Devis gratuit et personnalisé',
       'Estimation gratuite et sans engagement',
       'Tarification transparente',
-      'Techniques respectueuses des matériaux',
+      'Équipements professionnels de pointe',
       'Produits écologiques et efficaces',
       'Respect des délais convenus',
       'Garantie de satisfaction',
       'Conseil personnalisé selon vos besoins',
       'Finitions soignées et durables',
-      'Intervention rapide en Bretagne'
+      'Intervention rapide en région PACA'
     ],
     
     // Zone d'intervention
     serviceArea: [
-      'Bretagne (29000)',
-      'Caimpert et alentours',
-      'Finistère',
-      'Toute la région Bretagne'
+      '13090 et alentours',
+      'Provence-Alpes-Côte d\'Azur',
+      'Bouches-du-Rhône',
+      'Var',
+      'Alpes-Maritimes',
+      'Vaucluse',
+      'Toute la région PACA'
     ],
     
     // Informations de contact
     contactInfo: {
-      phone: '06 45 61 01 78',
-      email: 'diamantalive.fr@live.fr',
-      address: 'Bretagne (29000), Caimpert'
+      phone: '07 59 37 19 21',
+      email: 'dcezar978@gmail.com',
+      address: '13090, Provence-Alpes-Côte d\'Azur'
     }
   };
 

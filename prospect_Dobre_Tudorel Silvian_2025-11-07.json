@@ -1,0 +1,41 @@
+{
+  "id": "b5wlaED1nefj9SvIMSQ5",
+  "informationsPersonnelles": {
+    "nom": "Tudorel Silvian",
+    "prenom": "Dobre",
+    "email": "dcezar978@gmail.com",
+    "telephone": "0759371921",
+    "etape": "R2",
+    "date": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1762424094,
+      "nanoseconds": 896000000
+    },
+    "rgpd": true,
+    "commentaire": ""
+  },
+  "informationsEntreprise": {
+    "nomEntreprise": "Dobre Tudorel Silvian",
+    "entreprise": "Dobre Tudorel Silvian",
+    "metier": "Entreprise de nettoyage (chantier, particulier, domicile)",
+    "secteurActivite": "Provence-Alpes-Côte d'Azur",
+    "raisonSociale": "",
+    "anneeCreation": "",
+    "nombreCollaborateurs": "1",
+    "prestation": "Entreprise de nettoyage",
+    "rayonIntervention": "13090",
+    "certifications": "",
+    "garanties": "",
+    "partenaires": ""
+  },
+  "siteWebEtCommunication": {
+    "siteWebExistant": false,
+    "siteWebURL": "",
+    "logo": false,
+    "sitePret": false
+  },
+  "metadonnees": {
+    "dateExport": "2025-11-07T08:39:46.114Z",
+    "exportePar": "Admin Trouver Mon Chantier"
+  }
+}

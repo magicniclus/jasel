@@ -14,28 +14,28 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "NEWMAN - Entrepreneur du bâtiment, ravalement, couverture en Bretagne",
-  description: "NEWMAN, entrepreneur du bâtiment spécialisé en ravalement, couverture et nettoyage de chantier. Devis gratuit en Bretagne.",
+  title: "DOBRE TUDOREL SILVIAN - Entreprise de nettoyage, nettoyage chantier PACA",
+  description: "DOBRE TUDOREL SILVIAN, entrepreneur du bâtiment spécialisé en nettoyage de chantier, nettoyage particulier et nettoyage à domicile. Devis gratuit en région PACA.",
   keywords: [
-    "ravalement Bretagne",
-    "couverture Bretagne",
-    "nettoyage chantier Bretagne",
-    "entrepreneur bâtiment Bretagne",
-    "ravalement façade",
-    "couverture toiture",
-    "nettoyage toiture",
-    "pignon façade",
-    "travaux toiture",
+    "nettoyage chantier PACA",
+    "nettoyage particulier PACA",
+    "nettoyage domicile PACA",
+    "entrepreneur bâtiment PACA",
+    "nettoyage commercial",
+    "nettoyage professionnel",
+    "entreprise nettoyage",
+    "nettoyage après travaux",
+    "entretien locaux",
     "devis gratuit",
-    "NEWMAN",
-    "Reinard",
+    "DOBRE TUDOREL SILVIAN",
+    "Dobre Tudorel Silvian",
     "entrepreneur bâtiment",
-    "29000",
-    "Caimpert"
+    "13090",
+    "Provence-Alpes-Côte d'Azur"
   ],
-  author: "Reinard",
-  siteUrl: "https://newman.fr",
-  siteName: "NEWMAN - Entrepreneur du bâtiment",
+  author: "Dobre Tudorel Silvian",
+  siteUrl: "https://dobre-tudorel-silvian.fr",
+  siteName: "DOBRE TUDOREL SILVIAN - Entreprise de nettoyage",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
@@ -116,50 +116,50 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "NEWMAN",
-  "legalName": "Newman - Entrepreneur du bâtiment",
+  "name": "DOBRE TUDOREL SILVIAN",
+  "legalName": "Dobre Tudorel Silvian - Entrepreneur du bâtiment",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "Reinard"
+    "name": "Dobre Tudorel Silvian"
   },
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Caimpert",
-    "postalCode": "29000",
-    "addressRegion": "Bretagne",
+    "addressLocality": "13090",
+    "postalCode": "13090",
+    "addressRegion": "Provence-Alpes-Côte d'Azur",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+33645610178",
+    "telephone": "+33759371921",
     "contactType": "customer service",
-    "email": "diamantalive.fr@live.fr",
+    "email": "dcezar978@gmail.com",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
-      "name": "Bretagne"
+      "name": "Provence-Alpes-Côte d'Azur"
     },
     {
       "@type": "AdministrativeArea", 
-      "name": "Finistère"
+      "name": "PACA"
     },
     {
       "@type": "City",
-      "name": "Caimpert"
+      "name": "13090"
     }
   ],
   "serviceType": [
-    "Ravalement",
-    "Couverture", 
     "Nettoyage de chantier",
-    "Toiture",
-    "Travaux de toiture"
+    "Nettoyage particulier", 
+    "Nettoyage à domicile",
+    "Nettoyage commercial",
+    "Nettoyage professionnel"
   ],
   "priceRange": "€€",
   "openingHours": "Mo-Fr 08:00-18:00",
@@ -172,37 +172,45 @@ export const organizationSchema = {
 export const servicesSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Construction Services",
+  "serviceType": "Cleaning Services",
   "provider": {
     "@id": `${seoConfig.siteUrl}#organization`
   },
   "areaServed": organizationSchema.areaServed,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services de ravalement et couverture",
+    "name": "Services de nettoyage professionnel",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Ravalement",
-          "description": "Ravalement de façades, pignons et murs extérieurs"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service", 
-          "name": "Couverture",
-          "description": "Pose et rénovation de couvertures, travaux de toiture"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service", 
           "name": "Nettoyage de chantier",
-          "description": "Nettoyage de toiture, pignon et façade"
+          "description": "Nettoyage après travaux, nettoyage de chantiers de construction"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Nettoyage particulier",
+          "description": "Services de nettoyage pour particuliers, entretien régulier"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Nettoyage à domicile",
+          "description": "Nettoyage à domicile, entretien ménager professionnel"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Nettoyage commercial",
+          "description": "Nettoyage de locaux commerciaux et professionnels"
         }
       }
     ]

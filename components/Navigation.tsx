@@ -19,17 +19,17 @@ export default function Navigation() {
   const [showFloatingButton, setShowFloatingButton] = useState(false);
   const [showServicesDropdown, setShowServicesDropdown] = useState(false);
   const pathname = usePathname();
-  const phoneNumber = "06 45 61 01 78";
+  const phoneNumber = "07 59 37 19 21";
 
   // Détecter si on est sur la page d'accueil
   const isHomePage = pathname === '/';
 
   // Liste des services pour le dropdown
   const servicesLinks = [
-    { name: 'Ravalement', href: '/services/ravalement' },
-    { name: 'Couverture', href: '/services/couverture' },
     { name: 'Nettoyage de chantier', href: '/services/nettoyage-chantier' },
-    { name: 'Toiture', href: '/services/toiture' },
+    { name: 'Nettoyage particulier', href: '/services/nettoyage-particulier' },
+    { name: 'Nettoyage à domicile', href: '/services/nettoyage-domicile' },
+    { name: 'Nettoyage commercial', href: '/services/nettoyage-commercial' },
   ];
 
   // Navigation adaptative selon la page
@@ -101,10 +101,10 @@ export default function Navigation() {
               </motion.div>
               <div className="flex flex-col">
                 <span className="text-2xl font-bold text-foreground">
-                  NEWMAN
+                  DOBRE TUDOREL SILVIAN
                 </span>
                 <span className="text-sm text-gray-500 font-medium">
-                  ravalement | couverture | nettoyage
+                  nettoyage chantier | particulier | domicile
                 </span>
               </div>
             </Link>
@@ -288,10 +288,10 @@ export default function Navigation() {
                 </motion.div>
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-foreground">
-                    NEWMAN
+                    DOBRE TUDOREL SILVIAN
                   </span>
                   <span className="text-xs text-gray-400 font-medium">
-                    ravalement | couverture | nettoyage
+                    nettoyage chantier | particulier | domicile
                   </span>
                 </div>
               </div>

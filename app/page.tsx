@@ -21,50 +21,50 @@ export default function Home() {
   });
   const servicesData = [
     {
-      title: "Ravalement",
-      subtitle: "Ravalement de façades",
-      content: "Ravalement de façades, pignons et murs extérieurs. Expertise en rénovation et embellissement de vos façades en Bretagne.",
+      title: "Nettoyage de chantier",
+      subtitle: "Nettoyage après travaux",
+      content: "Nettoyage professionnel de chantiers après travaux. Évacuation des gravats, dépoussiérage et remise en état complète de vos locaux en région PACA.",
       image: "/maison.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
-      href: "/services/ravalement"
-    },
-    {
-      title: "Couverture",
-      subtitle: "Toiture et étanchéité",
-      content: "Pose et rénovation de couvertures : tuiles, ardoises. Solutions complètes pour l'étanchéité et la protection de votre toiture.",
-      image: "/plomberie.png",
-      gradientFrom: "#667eea",
-      gradientTo: "#764ba2",
-      href: "/services/couverture"
-    },
-    {
-      title: "Nettoyage de couverture et façade",
-      subtitle: "Nettoyage professionnel",
-      content: "Nettoyage de toiture, pignon et façade. Service professionnel pour l'entretien et la propreté de vos bâtiments.",
-      image: "/peinture.png",
-      gradientFrom: "#28a745",
-      gradientTo: "#20c997",
       href: "/services/nettoyage-chantier"
     },
     {
-      title: "Toiture",
-      subtitle: "Travaux de toiture",
-      content: "Travaux de toiture complète : réparation, entretien et rénovation. Expertise en toiture pour tous types de bâtiments.",
+      title: "Nettoyage particulier",
+      subtitle: "Entretien résidentiel",
+      content: "Services de nettoyage pour particuliers : entretien régulier, grand ménage, nettoyage de printemps. Solutions personnalisées pour votre domicile.",
+      image: "/plomberie.png",
+      gradientFrom: "#667eea",
+      gradientTo: "#764ba2",
+      href: "/services/nettoyage-particulier"
+    },
+    {
+      title: "Nettoyage à domicile",
+      subtitle: "Service à domicile",
+      content: "Nettoyage à domicile professionnel : ménage, repassage, entretien. Service personnalisé et de qualité directement chez vous en PACA.",
+      image: "/peinture.png",
+      gradientFrom: "#28a745",
+      gradientTo: "#20c997",
+      href: "/services/nettoyage-domicile"
+    },
+    {
+      title: "Nettoyage commercial",
+      subtitle: "Locaux professionnels",
+      content: "Nettoyage de locaux commerciaux et professionnels : bureaux, magasins, entrepôts. Entretien régulier et ponctuel pour entreprises.",
       image: "/about-1.png",
       gradientFrom: "#6f42c1",
       gradientTo: "#e83e8c",
-      href: "/services/toiture"
+      href: "/services/nettoyage-commercial"
     }
   ];
 
 
 
   const contactInfo = {
-    address: "Bretagne (29000)\nIntervention dans toute la région\nCaimpert et alentours",
-    phone: "06 45 61 01 78",
-    email: "diamantalive.fr@live.fr",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Bretagne,France&t=&z=10&ie=UTF8&iwloc=&output=embed"
+    address: "13090, Provence-Alpes-Côte d'Azur\nIntervention dans toute la région PACA\nNettoyage professionnel",
+    phone: "07 59 37 19 21",
+    email: "dcezar978@gmail.com",
+    mapEmbedUrl: "https://maps.google.com/maps?q=13090,Provence-Alpes-Côte+d'Azur,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -115,7 +115,7 @@ export default function Home() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de votre projet de ravalement, couverture ou nettoyage de chantier en Bretagne"
+        subtitle="Parlons de votre projet de nettoyage de chantier, nettoyage particulier ou nettoyage à domicile en région PACA"
         contactInfo={contactInfo} 
       />
 

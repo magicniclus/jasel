@@ -81,7 +81,7 @@ export default function MerciPage() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Analyse de votre demande</h3>
                 <p className="text-gray-600 text-sm">
-                  Nous étudions votre demande de ravalement, couverture ou nettoyage de chantier et préparons notre intervention.
+                  Nous étudions votre demande de nettoyage de chantier, nettoyage particulier ou nettoyage à domicile et préparons notre intervention.
                 </p>
               </div>
             </motion.div>
@@ -98,7 +98,7 @@ export default function MerciPage() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Prise de contact sous 24h</h3>
                 <p className="text-gray-600 text-sm">
-                  Notre équipe NEWMAN vous contacte pour affiner votre demande et planifier vos travaux.
+                  Notre équipe DOBRE TUDOREL SILVIAN vous contacte pour affiner votre demande et planifier vos services.
                 </p>
               </div>
             </motion.div>
@@ -115,7 +115,7 @@ export default function MerciPage() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Devis personnalisé</h3>
                 <p className="text-gray-600 text-sm">
-                  Recevez un devis détaillé pour vos travaux de ravalement, couverture ou nettoyage de chantier.
+                  Recevez un devis détaillé pour vos services de nettoyage de chantier, nettoyage particulier ou nettoyage à domicile.
                 </p>
               </div>
             </motion.div>
@@ -137,7 +137,7 @@ export default function MerciPage() {
                   <Phone className="h-5 w-5 text-orange-600" />
                 </div>
                 <div>
-                  <p className="font-medium text-gray-900">06 45 61 01 78</p>
+                  <p className="font-medium text-gray-900">07 59 37 19 21</p>
                   <p className="text-sm text-gray-600">Lun-Ven 9h-18h</p>
                 </div>
               </div>
@@ -146,7 +146,7 @@ export default function MerciPage() {
                   <Mail className="h-5 w-5 text-orange-600" />
                 </div>
                 <div>
-                  <p className="font-medium text-gray-900">diamantalive.fr@live.fr</p>
+                  <p className="font-medium text-gray-900">dcezar978@gmail.com</p>
                   <p className="text-sm text-gray-600">Réponse sous 2h</p>
                 </div>
               </div>

@@ -2,15 +2,15 @@
   "company": {
     "name": "DOBRE TUDOREL SILVIAN",
     "legalName": "Dobre Tudorel Silvian - Entrepreneur du bâtiment",
-    "address": "PACA, France",
-    "phone": "06 45 61 01 78",
-    "email": "contact@dobre-tudorel-silvian.fr",
+    "address": "13090, Provence-Alpes-Côte d'Azur",
+    "phone": "07 59 37 19 21",
+    "email": "dcezar978@gmail.com",
     "siret": "Entrepreneur",
     "ceo": "Dobre Tudorel Silvian"
   },
   "hero": {
-    "title": "DOBRE TUDOREL SILVIAN - Entrepreneur du bâtiment en PACA",
-    "subtitle": "Entrepreneur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture et charpente. Expert du secteur de la construction, de la rénovation et de l'immobilier, votre partenaire de confiance pour tous vos projets en région PACA.",
+    "title": "DOBRE TUDOREL SILVIAN - Entreprise de nettoyage en PACA",
+    "subtitle": "Entrepreneur du bâtiment spécialisé en nettoyage de chantier, nettoyage de bureau et nettoyage particulier. Expert du secteur de la construction et du nettoyage professionnel, votre partenaire de confiance pour tous vos projets de nettoyage en région PACA.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "/bg.png",
@@ -20,21 +20,21 @@
     "sections": [
       {
         "smallTitle": "Notre expertise",
-        "title": "Spécialiste rénovation intérieure et extérieure",
-        "subtitle": "Expert en rénovation, peinture, plomberie et toiture",
-        "content": "DOBRE TUDOREL SILVIAN est spécialisé dans les travaux de rénovation intérieure et extérieure. Nous mettons notre expertise au service de vos projets : rénovation complète, peinture, plomberie, toiture, charpente et terrasse. Notre mission : apporter un service de qualité, rapide et efficace, dans le respect des délais et des normes en région PACA.",
+        "title": "Spécialiste nettoyage de chantier et particulier",
+        "subtitle": "Expert en nettoyage professionnel et à domicile",
+        "content": "DOBRE TUDOREL SILVIAN est spécialisé dans les services de nettoyage de chantier, nettoyage particulier et nettoyage à domicile. Nous mettons notre expertise au service de vos projets : nettoyage après travaux, entretien de locaux, nettoyage résidentiel et commercial. Notre mission : apporter un service de qualité, rapide et efficace, dans le respect des délais et des normes d'hygiène en région PACA.",
         "image": "/about-1.png",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
-        "buttonText": "Voir nos réalisations",
-        "buttonHref": "#realisations",
+        "buttonText": "Voir nos services",
+        "buttonHref": "#services",
         "reversed": false
       },
       {
         "smallTitle": "Nos spécialités",
-        "title": "Travaux de rénovation et construction",
-        "subtitle": "Expert du secteur de la construction et de l'immobilier",
-        "content": "Ce qui nous distingue, c'est notre expertise technique dans le secteur de la construction, de la rénovation et de l'immobilier, notre rigueur et notre relation de confiance avec nos clients. Chaque chantier est pour nous une nouvelle occasion de prouver que nos métiers peuvent allier qualité et efficacité. Nous maîtrisons parfaitement les normes techniques et de sécurité en vigueur dans le secteur du bâtiment.",
+        "title": "Services de nettoyage professionnel",
+        "subtitle": "Expert du secteur de la construction et du nettoyage",
+        "content": "Ce qui nous distingue, c'est notre expertise technique dans le secteur du nettoyage professionnel, notre rigueur et notre relation de confiance avec nos clients. Chaque intervention est pour nous une nouvelle occasion de prouver que nos services peuvent allier qualité et efficacité. Nous maîtrisons parfaitement les normes d'hygiène et de sécurité en vigueur dans le secteur du nettoyage.",
         "image": "/about-2.png",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
@@ -46,7 +46,7 @@
   },
   "gallery": {
     "title": "Nos Réalisations",
-    "subtitle": "Découvrez nos travaux de rénovation intérieure, peinture, plomberie et toiture en région PACA",
+    "subtitle": "Découvrez nos services de nettoyage de chantier, nettoyage particulier et nettoyage à domicile en région PACA",
     "initialDisplayCount": 4,
     "images": [
       {
@@ -90,7 +90,7 @@
       {
         "name": "Dobre Tudorel Silvian",
         "position": "Fondateur & Entrepreneur du bâtiment",
-        "description": "Passionné par le secteur de la construction, de la rénovation et de l'immobilier, j'ai créé mon entreprise pour offrir des services de rénovation intérieure, peinture, plomberie et toiture de qualité. Expert du secteur du bâtiment, je mets mon expertise au service de vos projets en région PACA. Mon engagement : vous offrir un service de qualité, rapide et efficace, avec un souci constant du détail.",
+        "description": "Passionné par le secteur de la construction et du nettoyage professionnel, j'ai créé mon entreprise pour offrir des services de nettoyage de chantier, nettoyage particulier et nettoyage à domicile de qualité. Expert du secteur du nettoyage, je mets mon expertise au service de vos projets en région PACA. Mon engagement : vous offrir un service de qualité, rapide et efficace, avec un souci constant du détail.",
         "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
       }
     ]

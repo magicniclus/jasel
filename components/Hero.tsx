@@ -25,12 +25,12 @@ export default function Hero({
   config,
   backgroundImage,
   backgroundVideo,
-  title = "DOBRE TUDOREL SILVIAN - Entrepreneur du bâtiment en PACA",
-  description = "Entrepreneur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture et charpente. Expert du secteur de la construction, de la rénovation et de l'immobilier, votre partenaire de confiance pour tous vos projets en région PACA.",
+  title = "DOBRE TUDOREL SILVIAN - Entreprise de nettoyage en PACA",
+  description = "Entrepreneur du bâtiment spécialisé en nettoyage de chantier, nettoyage de bureau et nettoyage particulier. Expert du secteur de la construction et du nettoyage professionnel, votre partenaire de confiance pour tous vos projets de nettoyage en région PACA.",
   bulletPoints = [
-    "Spécialiste rénovation intérieure et extérieure",
-    "Expert peinture, plomberie et toiture",
-    "Intervention en région PACA"
+    "Spécialiste nettoyage de chantier",
+    "Expert nettoyage de bureau",
+    "Professionnel nettoyage particulier"
   ],
   googleReviewsWidget
 }: HeroProps) {
