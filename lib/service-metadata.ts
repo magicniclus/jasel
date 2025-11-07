@@ -7,16 +7,16 @@ export function generateServiceMetadata(
   description: string,
   keywords: string[]
 ): Metadata {
-  const title = `${serviceName} ${location} - LCCM | Devis Gratuit`;
+  const title = `${serviceName} ${location} - JASEL | Devis Gratuit`;
   const metaDescription = `${description} Intervention rapide en ${location}. Devis gratuit et personnalisé.`;
 
   return {
     title,
     description: metaDescription,
     keywords: keywords.join(', '),
-    authors: [{ name: 'LCCM' }],
-    creator: 'LCCM',
-    publisher: 'LCCM',
+    authors: [{ name: 'JASEL' }],
+    creator: 'JASEL',
+    publisher: 'JASEL',
     formatDetection: {
       email: false,
       address: false,
@@ -27,7 +27,7 @@ export function generateServiceMetadata(
       description: metaDescription,
       type: 'website',
       locale: 'fr_FR',
-      siteName: 'LCCM - Charpente Couverture',
+      siteName: 'JASEL - Peinture et Parquet',
     },
     twitter: {
       card: 'summary_large_image',

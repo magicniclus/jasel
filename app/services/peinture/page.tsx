@@ -5,76 +5,76 @@ import { Metadata } from 'next';
 // Configuration de la page peinture
 const peintureConfig = {
   // SEO et métadonnées
-  title: "Peinture PACA - Aix-en-Provence",
-  description: "AYA PRO, spécialiste travaux de peinture en région PACA. Peinture intérieure et extérieure. Devis gratuit et personnalisé pour tous vos projets.",
+  title: "Peinture intérieure Auvergne-Rhône-Alpes - JASEL",
+  description: "JASEL, spécialiste peinture intérieure en Auvergne-Rhône-Alpes. Peinture murs, plafonds, boiseries. Devis gratuit et personnalisé pour tous vos projets.",
   keywords: [
-    "peinture PACA",
-    "peintre Aix-en-Provence",
-    "peinture intérieure",
-    "peinture extérieure",
+    "peinture intérieure Auvergne-Rhône-Alpes",
+    "peintre 01150",
+    "peinture murs",
+    "peinture plafonds",
     "devis peinture gratuit",
-    "travaux peinture PACA",
+    "travaux peinture Auvergne-Rhône-Alpes",
     "entrepreneur peintre",
-    "peinture façade",
+    "peinture boiseries",
     "rénovation peinture"
   ],
   
   // Contenu principal
-  serviceName: "Peinture",
-  heroImage: "/plomberie.png",
-  heroTitle: "Travaux de Peinture Professionnels",
-  heroSubtitle: "Peinture intérieure et extérieure en région PACA. Application professionnelle avec devis gratuit et personnalisé.",
+  serviceName: "Peinture intérieure",
+  heroImage: "/maison.png",
+  heroTitle: "Peinture Intérieure Professionnelle",
+  heroSubtitle: "Peinture intérieure en Auvergne-Rhône-Alpes. Application professionnelle avec devis gratuit et personnalisé.",
   
   // Secteur d'activité
   sector: "BTP - Peinture",
-  location: "PACA",
+  location: "Auvergne-Rhône-Alpes",
   
   // Contenu détaillé
-  mainDescription: "AYA PRO, entrepreneur spécialisé en travaux de peinture en région PACA, vous accompagne dans tous vos projets de peinture intérieure et extérieure. Que vous souhaitiez rafraîchir vos murs, rénover votre façade ou créer une ambiance personnalisée, nous vous proposons une prestation complète avec des finitions soignées. Notre expertise dans le secteur du BTP nous permet de vous conseiller sur le choix des couleurs et des finitions adaptées à vos besoins.",
+  mainDescription: "JASEL, entrepreneur du bâtiment spécialisé en peinture intérieure en Auvergne-Rhône-Alpes, vous accompagne dans tous vos projets de peinture. Que vous souhaitiez rafraîchir vos murs, peindre vos plafonds ou rénover vos boiseries, nous vous proposons une prestation complète avec des finitions soignées. Notre expertise dans le secteur du BTP nous permet de vous conseiller sur le choix des couleurs et des finitions adaptées à vos besoins.",
   
   // Sous-prestations
   subServices: [
     {
-      title: "Peinture intérieure",
-      description: "Peinture de murs, plafonds, boiseries pour toutes les pièces de votre habitation"
+      title: "Peinture murs",
+      description: "Peinture professionnelle des murs intérieurs avec préparation et finitions soignées"
     },
     {
-      title: "Peinture extérieure",
-      description: "Ravalement de façade, peinture de volets, portails et éléments extérieurs"
+      title: "Peinture plafonds",
+      description: "Application experte sur plafonds avec techniques anti-traces et finition parfaite"
     },
     {
-      title: "Préparation des supports",
-      description: "Ponçage, rebouchage, lessivage et préparation minutieuse des surfaces"
+      title: "Peinture boiseries",
+      description: "Peinture de portes, fenêtres, plinthes et tous éléments en bois"
+    },
+    {
+      title: "Préparation surfaces",
+      description: "Ponçage, rebouchage, lessivage et préparation minutieuse des supports"
     },
     {
       title: "Peinture décorative",
-      description: "Effets décoratifs, patines, enduits à la chaux pour personnaliser vos espaces"
-    },
-    {
-      title: "Peinture de rénovation",
-      description: "Remise en état de peintures anciennes, traitement des fissures et défauts"
+      description: "Effets décoratifs et techniques spéciales pour personnaliser vos intérieurs"
     },
     {
       title: "Conseil couleurs",
       description: "Aide au choix des couleurs et harmonies pour créer l'ambiance souhaitée"
     },
     {
-      title: "Finitions spéciales",
-      description: "Peintures spécialisées : anti-humidité, lessivable, écologique"
+      title: "Finitions qualité",
+      description: "Application de peintures haut de gamme avec finitions parfaites"
     },
     {
-      title: "Protection des surfaces",
+      title: "Protection chantier",
       description: "Bâchage soigné et protection de vos meubles et sols pendant les travaux"
     }
   ],
   
   // Avantages/Points forts
   advantages: [
+    "Devis gratuit et personnalisé",
     "Application professionnelle garantie",
     "Matériaux de qualité supérieure",
     "Finitions parfaites et durables",
     "Conseil personnalisé en couleurs",
-    "Devis gratuit et personnalisé",
     "Respect des délais convenus",
     "Protection soignée de vos biens",
     "Garantie sur tous les travaux",
@@ -84,21 +84,19 @@ const peintureConfig = {
   
   // Zone d'intervention
   serviceArea: [
-    "Aix-en-Provence",
-    "Région PACA",
-    "Bouches-du-Rhône",
-    "Marseille",
-    "Salon-de-Provence",
-    "Gardanne",
-    "Vitrolles",
-    "50 km autour d'Aix"
+    "01150",
+    "Auvergne-Rhône-Alpes",
+    "Ain",
+    "Région Auvergne-Rhône-Alpes",
+    "Communes environnantes",
+    "Intervention locale"
   ],
   
   // Informations de contact
   contactInfo: {
-    phone: "06 68 92 45 79",
-    email: "mraihi_7777@yahoo.com",
-    address: "Aix-en-Provence, PACA"
+    phone: "06 87 18 47 96",
+    email: "mehtapmurat@hotmail.fr",
+    address: "01150, Auvergne-Rhône-Alpes"
   }
   
   // Pas de section pricing selon les instructions

@@ -5,73 +5,73 @@ import { Metadata } from 'next';
 // Configuration de la page rénovation intérieure
 const renovationInterieurConfig = {
   // SEO et métadonnées
-  title: "Aménagement Intérieur et Plaquisterie - Île de France et Sarthe",
-  description: "LCCM, spécialiste aménagement intérieur et plaquisterie en Île de France et Sarthe. Cloisons, doublages, faux plafonds. Devis gratuit et personnalisé.",
+  title: "Rénovation intérieure Auvergne-Rhône-Alpes - JASEL",
+  description: "JASEL, spécialiste rénovation intérieure en Auvergne-Rhône-Alpes. Peinture, parquet, toile décorative. Projet clé en main avec devis gratuit et personnalisé.",
   keywords: [
-    "aménagement intérieur Île de France",
-    "plaquisterie Sarthe",
-    "cloisons placo",
-    "devis gratuit aménagement",
-    "doublages murs",
-    "faux plafonds Le Mans",
-    "entrepreneur plaquiste",
-    "LCCM plaquisterie",
+    "rénovation intérieure Auvergne-Rhône-Alpes",
+    "rénovation 01150",
+    "projet clé en main",
+    "devis gratuit rénovation",
+    "peinture parquet toile",
+    "rénovation complète",
+    "entrepreneur rénovation",
+    "JASEL rénovation",
     "aménagement sur mesure"
   ],
   
   // Contenu principal
-  serviceName: "Aménagement Intérieur",
-  heroImage: "/placo.png",
-  heroTitle: "Aménagement Intérieur et Plaquisterie",
-  heroSubtitle: "Transformation et aménagement de vos espaces intérieurs en Île de France et Sarthe. Spécialiste cloisons et doublages avec devis gratuit.",
+  serviceName: "Rénovation intérieure",
+  heroImage: "/about-1.png",
+  heroTitle: "Rénovation Intérieure Complète",
+  heroSubtitle: "Rénovation intérieure en Auvergne-Rhône-Alpes. Projet clé en main avec peinture, parquet et toile décorative. Devis gratuit.",
   
   // Secteur d'activité
-  sector: "BTP - Aménagement Intérieur",
-  location: "Île de France et Sarthe",
+  sector: "BTP - Rénovation",
+  location: "Auvergne-Rhône-Alpes",
   
   // Contenu détaillé
-  mainDescription: "LCCM, entrepreneur du bâtiment spécialisé en aménagement intérieur et plaquisterie en Île de France et Sarthe, vous accompagne dans tous vos projets de transformation d'espaces. Que vous souhaitiez créer de nouvelles pièces, aménager vos combles ou moderniser votre intérieur avec des cloisons, nous vous proposons une prestation complète et sur mesure. Notre expertise en plaquisterie nous permet de réaliser des aménagements durables et esthétiques.",
+  mainDescription: "JASEL, entrepreneur du bâtiment spécialisé en rénovation intérieure en Auvergne-Rhône-Alpes, vous accompagne dans tous vos projets de transformation d'espaces. Que vous souhaitiez rénover entièrement votre intérieur avec peinture, parquet et toile décorative, nous vous proposons une prestation complète et clé en main. Notre expertise dans le secteur du BTP nous permet de réaliser des rénovations durables et esthétiques avec des finitions haut de gamme.",
   
   // Sous-prestations
   subServices: [
     {
-      title: "Cloisons Placo",
-      description: "Création de cloisons en plaques de plâtre pour créer de nouveaux espaces, séparations sur mesure"
+      title: "Peinture complète",
+      description: "Peinture intérieure de tous les murs et plafonds avec préparation et finitions"
     },
     {
-      title: "Doublages Muraux",
-      description: "Doublage de murs pour isolation thermique et phonique, amélioration du confort"
+      title: "Pose de parquet",
+      description: "Installation de parquet massif, contrecollé ou stratifié selon vos préférences"
     },
     {
-      title: "Faux Plafonds",
-      description: "Installation de faux plafonds suspendus, intégration d'éclairages et ventilation"
+      title: "Toile décorative",
+      description: "Pose de papier peint et toile décorative pour personnaliser vos espaces"
     },
     {
-      title: "Isolation Intérieure",
-      description: "Pose d'isolants thermiques et phoniques dans cloisons et doublages"
+      title: "Préparation surfaces",
+      description: "Préparation minutieuse de tous les supports avant application des finitions"
     },
     {
-      title: "Finitions et Joints",
-      description: "Réalisation des joints, ponçage, préparation pour peinture ou revêtements"
+      title: "Coordination travaux",
+      description: "Coordination de tous les corps de métier pour un projet clé en main"
     },
     {
-      title: "Aménagement Combles",
-      description: "Aménagement de combles avec cloisons et doublages adaptés aux contraintes"
+      title: "Finitions soignées",
+      description: "Finitions haut de gamme avec attention aux détails et à la qualité"
     },
     {
-      title: "Réparation Placo",
-      description: "Réparation de fissures, trous, remise en état de cloisons existantes"
+      title: "Conseil décoration",
+      description: "Conseils personnalisés pour harmoniser couleurs, matériaux et styles"
     },
     {
-      title: "Pose d'Huisseries",
-      description: "Intégration de portes, fenêtres dans les cloisons, finitions soignées"
+      title: "Suivi projet",
+      description: "Suivi complet du projet de A à Z avec respect des délais convenus"
     }
   ],
   
   // Avantages/Points forts
   advantages: [
+    "Devis gratuit et personnalisé",
     "Projet clé en main de A à Z",
-    "Devis gratuit et détaillé",
     "Matériaux de qualité professionnelle",
     "Respect des délais convenus",
     "Garantie sur tous les travaux",
@@ -84,21 +84,19 @@ const renovationInterieurConfig = {
   
   // Zone d'intervention
   serviceArea: [
-    "Île de France",
-    "Sarthe",
-    "Le Mans",
-    "Sablé-sur-Sarthe",
-    "La Flèche",
-    "Mamers",
-    "Château-du-Loir",
-    "Bonnétable"
+    "01150",
+    "Auvergne-Rhône-Alpes",
+    "Ain",
+    "Région Auvergne-Rhône-Alpes",
+    "Communes environnantes",
+    "Intervention locale"
   ],
   
   // Informations de contact
   contactInfo: {
-    phone: "06 75 87 47 82",
-    email: "lccmsarthe@gmail.com",
-    address: "Île de France et Sarthe"
+    phone: "06 87 18 47 96",
+    email: "mehtapmurat@hotmail.fr",
+    address: "01150, Auvergne-Rhône-Alpes"
   }
   
   // Pas de section pricing selon les instructions
